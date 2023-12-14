@@ -1,0 +1,67 @@
+syntax = "proto3";
+
+package barangmasuk;
+
+message BarangMasuk{
+    int32 id = 1;
+    string name = 2;
+    string tanggalMasuk = 3;
+    string supplierId = 4;
+    int32 qty = 5;
+}
+
+message BarangMasukListRequest {
+
+}
+
+message BarangMasukListResponse {
+    repeated BarangMasuk barangmasuk = 1;
+}
+
+message BarangMasukDetailRequest {
+    int32 id = 1;
+}
+
+message BarangMasukDetailResponse {
+    BarangMasuk barangmasuk = 1;
+}
+
+message BarangMasukCreateRequest {
+    string name = 1;
+    string tanggalMasuk = 2;
+    string supplierId = 3;
+    int32 qty = 4;
+}
+
+message BarangMasukCreateResponse {
+    BarangMasuk barangmasuk = 1;
+}
+
+message BarangMasukUpdateRequest {
+    int32 id = 1;
+    string name = 2;
+    string tanggalMasuk = 3;
+    string supplierId = 4;
+    int32 qty = 5;
+}
+
+message BarangMasukUpdateResponse {
+    BarangMasuk barangmasuk = 1;
+    string message = 2;
+}
+
+message BarangMasukDeleteRequest {
+    int32 id = 1;
+}
+
+message BarangMasukDeleteResponse {
+    string message = 1;
+}
+
+service BarangMasukService {
+    rpc list(BarangMasukListRequest) returns (BarangMasukListResponse);
+    rpc get(BarangMasukDetailRequest) returns (BarangMasukDetailResponse);
+    rpc create(BarangMasukCreateRequest) returns (BarangMasukCreateResponse);
+    rpc update(BarangMasukUpdateRequest) returns (BarangMasukUpdateResponse);
+    rpc delete(BarangMasukDeleteRequest) returns (BarangMasukDeleteResponse);
+}

@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+package rack;
+
+message Rack {
+    int32 id = 1;
+    string name = 2;
+}
+
+message RackListRequest {
+
+}
+
+message RackListResponse {
+    repeated Rack Rack = 1;
+}
+
+message RackDetailRequest {
+    int32 id = 1;
+}
+
+message RackDetailResponse {
+    Rack rack = 1;
+}
+
+message RackCreateRequest {
+    string name = 1;
+}
+
+message RackCreateResponse {
+    Rack rack = 1;
+}
+
+message RackUpdateRequest {
+    int32 id = 1;
+    string name = 2;
+}
+
+message RackUpdateResponse {
+    Rack rack = 1;
+    string message = 2;
+}
+
+message RackDeleteRequest {
+    int32 id = 1;
+}
+
+message RackDeleteResponse {
+    Rack rack = 1;
+    string message = 2;
+}
+
+message ItemRackListRequest {
+    int32 id = 1;
+}
+
+service RackService {
+    rpc list(RackListRequest) returns (RackListResponse);
+    rpc get(RackDetailRequest) returns (RackDetailResponse);
+    rpc create(RackCreateRequest) returns (RackCreateResponse);
+    rpc update(RackUpdateRequest) returns (RackUpdateResponse);
+    rpc delete(RackDeleteRequest) returns (RackDeleteResponse);
+}

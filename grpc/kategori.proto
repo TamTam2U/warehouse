@@ -1,0 +1,58 @@
+syntax = "proto3";
+
+package kategori;
+
+message Kategori {
+    int32 id = 1;
+    string name = 2;
+}
+
+message KategoriListRequest {
+
+}
+
+message KategoriListResponse{
+    repeated Kategori Kategori = 1;
+}
+
+message KategoriDetailRequest {
+    int32 id = 1;
+}
+
+message KategoriDetailResponse {
+    Kategori kategori = 1;
+}
+
+message KategoriCreateRequest {
+    string name = 1;
+}
+
+message KategoriCreateResponse {
+    Kategori kategori = 1;
+}
+
+message KategoriUpdateRequest {
+    int32 id = 1;
+    string name = 2;
+}
+
+message KategoriUpdateResponse {
+    Kategori kategori = 1;
+    string message = 2;
+}
+
+message KategoriDeleteRequest {
+    int32 id = 1;
+}
+
+message KategoriDeleteResponse {
+    string message = 1;
+}
+
+service KategoriService {
+    rpc list(KategoriListRequest) returns (KategoriListResponse);
+    rpc get(KategoriDetailRequest) returns (KategoriDetailResponse);
+    rpc create(KategoriCreateRequest) returns (KategoriCreateResponse);
+    rpc update(KategoriUpdateRequest) returns (KategoriUpdateResponse);
+    rpc delete(KategoriDeleteRequest) returns (KategoriDeleteResponse);
+}

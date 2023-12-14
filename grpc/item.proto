@@ -1,0 +1,60 @@
+syntax = "proto3";
+
+package item;
+
+message Item {
+    int32 id = 1;
+    string name = 2;
+    string kategoriId = 3;
+}
+
+message ItemListRequest {
+
+}
+
+message ItemListResponse {
+    repeated Item Item = 1;
+}
+
+message ItemDetailRequest {
+    int32 id = 1;
+}
+
+message ItemDetailResponse {
+    Item item = 1;
+}
+
+message ItemCreateRequest {
+    string name = 1;
+    string kategoriId = 2;
+}
+
+message ItemCreateResponse {
+    Item item = 1;
+}
+
+message ItemUpdateRequest {
+    int32 id = 1;
+    string name = 2;
+}
+
+message ItemUpdateResponse {
+    Item item = 1;
+    string message = 2;
+}
+
+message ItemDeleteRequest {
+    int32 id = 1;
+}
+
+message ItemDeleteResponse {
+    string message = 1;
+}
+
+service ItemService {
+    rpc list(ItemListRequest) returns (ItemListResponse);
+    rpc detail(ItemDetailRequest) returns (ItemDetailResponse);
+    rpc create(ItemCreateRequest) returns (ItemCreateResponse);
+    rpc update(ItemUpdateRequest) returns (ItemUpdateResponse);
+    rpc delete(ItemDeleteRequest) returns (ItemDeleteResponse);
+}

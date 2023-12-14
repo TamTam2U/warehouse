@@ -1,0 +1,87 @@
+syntax = "proto3";
+
+package user;
+
+message User{
+    int32 id = 1;
+    string name = 2;
+    string email = 3;
+    string password = 4;
+    int32 role_id = 5;
+}
+
+message UserListRequest {
+
+}
+
+message UserListResponse {
+    repeated User user = 1;
+}
+
+message UserDetailRequest {
+    int32 id = 1;
+}
+
+message UserDetailResponse {
+    User user = 1;
+}
+
+message UserCreateRequest {
+    string name = 1;
+    string email = 2;
+    string password = 3;
+    int32 role_id = 4;
+}
+
+message UserCreateResponse {
+    User user = 1;
+}
+
+message UserUpdateRequest {
+    int32 id = 1;
+    string name = 2;
+    string email = 3;
+    string password = 4;
+    int32 role_id = 5;
+}
+
+message UserUpdateResponse {
+    User user = 1;
+}
+
+message UserDeleteRequest {
+    int32 id = 1;
+}
+
+message UserDeleteResponse {
+    string message = 1;
+}
+
+message UserLoginRequest {
+    string email = 1;
+    string password = 2;
+}
+
+message UserLoginResponse {
+    string token = 1;
+}
+
+message UserLogoutRequest {
+    string token = 1;
+}
+
+message UserLogoutResponse {
+    string message = 1;
+}
+
+service UserService {
+    rpc list(UserListRequest) returns (UserListResponse);
+    rpc get(UserDetailRequest) returns (UserDetailResponse);
+    rpc create(UserCreateRequest) returns (UserCreateResponse);
+    rpc update(UserUpdateRequest) returns (UserUpdateResponse);
+    rpc delete(UserDeleteRequest) returns (UserDeleteResponse);
+    rpc login(UserLoginRequest) returns (UserLoginResponse);
+    rpc logout(UserLogoutRequest) returns (UserLogoutResponse);
+}
+
+

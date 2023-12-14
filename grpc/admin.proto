@@ -1,0 +1,117 @@
+syntax = "proto3";
+
+package admin;
+
+message Admin {
+    int32 id = 1;
+    string email = 2;
+    string password = 3;
+    string otp = 4;
+}
+
+message AdminListRequest{
+
+}
+
+message AdminListResponse{
+    repeated Admin admin = 1;
+}
+
+message AdminRequest {
+    int32 id = 1;
+}
+
+message AdminResponse {
+    Admin admin = 1;
+}
+
+message AdminCreateRequest {
+    string email = 1;
+    string password = 2;
+}
+
+message AdminCreateResponse {
+    Admin admin = 1;
+}
+
+message AdminUpdateRequest {
+    int32 id = 1;
+    string password = 2;
+}
+
+message AdminUpdateResponse {
+    Admin admin = 1;
+}
+
+message AdminDeleteRequest {
+    int32 id = 1;
+}
+
+message AdminDeleteResponse {
+    string message = 1;
+}
+
+message AdminLoginRequest {
+    string email = 1;
+    string password = 2;
+}
+
+message AdminLoginResponse {
+    string token= 1;
+    string email= 2;
+    string id= 3;
+}
+
+message AdminLogoutRequest {
+    string token = 1;
+}
+
+message AdminLogoutResponse {
+    string message = 1;
+}
+
+message AdminOtpRequest {
+    string email = 1;
+}
+
+message AdminOtpResponse {
+    string otp = 1;
+    string email = 2;   
+    string message = 3;
+    string id = 4;
+}
+
+message AdminVerifyOtpRequest {
+    string email = 1;
+    string otp = 2;
+}
+
+message AdminVerifyOtpResponse {
+    string message = 1;
+}
+
+message AdminResetPasswordRequest {
+    string email = 1;
+    string password = 2;
+}
+
+message AdminResetPasswordResponse {
+    string message = 1;
+}
+
+service AdminService {
+    rpc list(AdminListRequest) returns (AdminListResponse);
+    rpc get(AdminRequest) returns (AdminResponse);
+    rpc create(AdminCreateRequest) returns (AdminCreateResponse);
+    rpc update(AdminUpdateRequest) returns (AdminUpdateResponse);
+    rpc delete(AdminDeleteRequest) returns (AdminDeleteResponse);
+    rpc login(AdminLoginRequest) returns (AdminLoginResponse);
+    rpc logout(AdminLogoutRequest) returns (AdminLogoutResponse);
+    rpc otp(AdminOtpRequest) returns (AdminOtpResponse);
+    rpc verifyOtp(AdminVerifyOtpRequest) returns (AdminVerifyOtpResponse);
+    rpc resetPassword(AdminResetPasswordRequest) returns (AdminResetPasswordResponse);
+}
+
+
+
+

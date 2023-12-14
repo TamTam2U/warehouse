@@ -1,0 +1,67 @@
+syntax = "proto3";
+
+package barangkeluar;
+
+message BarangKeluar {
+    int32 id = 1;
+    string name = 2;
+    string tanggalKeluar = 3;
+    string supplierId = 4;
+    int32 qty = 5;
+}
+
+message BarangKeluarListRequest {
+
+}
+
+message BarangKeluarListResponse {
+    repeated BarangKeluar barangkeluar = 1;
+}
+
+message BarangKeluarDetailRequest {
+    int32 id = 1;
+}
+
+message BarangKeluarDetailResponse {
+    BarangKeluar barangkeluar = 1;
+}
+
+message BarangKeluarCreateRequest {
+    string name = 1;
+    string tanggalKeluar = 2;
+    string supplierId = 3;
+    int32 qty = 4;
+}
+
+message BarangKeluarCreateResponse {
+    BarangKeluar barangkeluar = 1;   
+}
+
+message BarangKeluarUpdateRequest {
+    int32 id = 1;
+    string name = 2;
+    string tanggalKeluar = 3;
+    string supplierId = 4;
+    int32 qty = 5;
+}
+
+message BarangKeluarUpdateResponse {
+    BarangKeluar barangkeluar = 1;   
+    string message = 2;
+}
+
+message BarangKeluarDeleteRequest {
+    int32 id = 1;
+}
+
+message BarangKeluarDeleteResponse {
+    string message = 1;
+}
+
+service BarangKeluarService {
+    rpc list(BarangKeluarListRequest) returns (BarangKeluarListResponse);
+    rpc get(BarangKeluarDetailRequest) returns (BarangKeluarDetailResponse);
+    rpc create(BarangKeluarCreateRequest) returns (BarangKeluarCreateResponse);
+    rpc update(BarangKeluarUpdateRequest) returns (BarangKeluarUpdateResponse);
+    rpc delete(BarangKeluarDeleteRequest) returns (BarangKeluarDeleteResponse);
+}

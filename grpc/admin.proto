@@ -7,6 +7,7 @@ message Admin {
     string email = 2;
     string password = 3;
     string otp = 4;
+    string token = 5;
 }
 
 message AdminListRequest{

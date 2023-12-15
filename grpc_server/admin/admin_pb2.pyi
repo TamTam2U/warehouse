@@ -6,16 +6,18 @@ from typing import ClassVar as _ClassVar, Iterable as _Iterable, Mapping as _Map
 DESCRIPTOR: _descriptor.FileDescriptor
 
 class Admin(_message.Message):
-    __slots__ = ("id", "email", "password", "otp")
+    __slots__ = ("id", "email", "password", "otp", "token")
     ID_FIELD_NUMBER: _ClassVar[int]
     EMAIL_FIELD_NUMBER: _ClassVar[int]
     PASSWORD_FIELD_NUMBER: _ClassVar[int]
     OTP_FIELD_NUMBER: _ClassVar[int]
+    TOKEN_FIELD_NUMBER: _ClassVar[int]
     id: int
     email: str
     password: str
     otp: str
-    def __init__(self, id: _Optional[int] = ..., email: _Optional[str] = ..., password: _Optional[str] = ..., otp: _Optional[str] = ...) -> None: ...
+    token: str
+    def __init__(self, id: _Optional[int] = ..., email: _Optional[str] = ..., password: _Optional[str] = ..., otp: _Optional[str] = ..., token: _Optional[str] = ...) -> None: ...
 
 class AdminListRequest(_message.Message):
     __slots__ = ()

@@ -6,6 +6,7 @@ import admin_pb2
 import admin_pb2_grpc
 import traceback
 import jwt
+import random
 
 from database.config import engine
 from sqlalchemy import insert, text, values, select, update, delete, desc
@@ -182,6 +183,105 @@ class AdminService(admin_pb2_grpc.AdminServiceServicer):
 
                 return admin_pb2.AdminLoginResponse(
                     id=res[0], email=res[1], token=token
+                )
+        except Exception as e:
+            print(e)
+            print(traceback.format_exc())
+            context.set_code(grpc.StatusCode.UNKNOWN)
+            return None
+
+    def logout(self, request, context):
+        try:
+            with engine.connect() as db:
+                db.begin()
+                token = jwt.decode(request.token, "secret", algorithms=["HS256"])
+
+                db.execute(
+                    update(Admin).where(Admin.email == token["email"]).values(token="")
+                )
+                db.commit()
+
+                return admin_pb2.AdminLogoutResponse(message="Success Logout")
+        except Exception as e:
+            print(e)
+            print(traceback.format_exc())
+            context.set_code(grpc.StatusCode.UNKNOWN)
+            return None
+
+    def otp(self, request, context):
+        try:
+            with engine.connect() as db:
+                db.begin()
+
+                res = db.execute(
+                    update(Admin)
+                    .where(Admin.email == request.email)
+                    .values(otp=str(random.randint(100000, 999999)))
+                )
+
+                db.commit()
+
+                if res is None:
+                    return admin_pb2.AdminOtpResponse()
+
+                res = db.execute(
+                    select(Admin).where(Admin.email == request.email)
+                ).first()
+
+                return admin_pb2.AdminOtpResponse(
+                    otp=res[3], email=res[1], message="OTP Sent", id=res[0]
+                )
+        except Exception as e:
+            print(e)
+            print(traceback.format_exc())
+            context.set_code(grpc.StatusCode.UNKNOWN)
+            return None
+
+    def verifyOtp(self, request, context):
+        try:
+            with engine.connect() as db:
+                db.begin()
+
+                response = db.execute(
+                    select(Admin).where(Admin.email == request.email)
+                ).first()
+
+                db.commit()
+
+                if response is None:
+                    context.set_code(grpc.StatusCode.NOT_FOUND)
+                    return admin_pb2.AdminVerifyOtpResponse(message="Not Found")
+
+                if response[3] != request.otp:
+                    context.set_code(grpc.StatusCode.INVALID_ARGUMENT)
+                    return admin_pb2.AdminVerifyOtpResponse(message="Invalid Otp")
+
+                return admin_pb2.AdminVerifyOtpResponse(message="Otp Verify")
+        except Exception as e:
+            print(e)
+            print(traceback.format_exc())
+            context.set_code(grpc.StatusCode.UNKNOWN)
+            return None
+
+    def resetPassword(self, request, context):
+        try:
+            with engine.connect() as db:
+                db.begin()
+                response = db.execute(
+                    select(Admin).where(Admin.email == request.email)
+                ).first()
+                if response is None:
+                    context.set_code(grpc.StatusCode.NOT_FOUND)
+                    return admin_pb2.AdminResetPasswordResponse(message="Not Found")
+
+                db.execute(
+                    update(Admin)
+                    .where(Admin.email == request.email)
+                    .values(password=request.password, otp="")
+                )
+                db.commit()
+                return admin_pb2.AdminResetPasswordResponse(
+                    message="Success Reset Password"
                 )
         except Exception as e:
             print(e)

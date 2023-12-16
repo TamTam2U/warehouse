@@ -1,0 +1,2138 @@
+[
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Sequence",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "Union",
+        "importPath": "typing",
+        "description": "typing",
+        "isExtraImport": true,
+        "detail": "typing",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "op",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "context",
+        "importPath": "alembic",
+        "description": "alembic",
+        "isExtraImport": true,
+        "detail": "alembic",
+        "documentation": {}
+    },
+    {
+        "label": "sqlalchemy",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "engine_from_config",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "pool",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "insert",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "desc",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Column",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Integer",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "Text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "String",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "DateTime",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "insert",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "text",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "values",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "select",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "update",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "delete",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "desc",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "create_engine",
+        "importPath": "sqlalchemy",
+        "description": "sqlalchemy",
+        "isExtraImport": true,
+        "detail": "sqlalchemy",
+        "documentation": {}
+    },
+    {
+        "label": "fileConfig",
+        "importPath": "logging.config",
+        "description": "logging.config",
+        "isExtraImport": true,
+        "detail": "logging.config",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "Mapped",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "mapped_column",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "DeclarativeBase",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "sessionmaker",
+        "importPath": "sqlalchemy.orm",
+        "description": "sqlalchemy.orm",
+        "isExtraImport": true,
+        "detail": "sqlalchemy.orm",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "descriptor_pool",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "symbol_database",
+        "importPath": "google.protobuf",
+        "description": "google.protobuf",
+        "isExtraImport": true,
+        "detail": "google.protobuf",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "builder",
+        "importPath": "google.protobuf.internal",
+        "description": "google.protobuf.internal",
+        "isExtraImport": true,
+        "detail": "google.protobuf.internal",
+        "documentation": {}
+    },
+    {
+        "label": "grpc",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "grpc",
+        "description": "grpc",
+        "detail": "grpc",
+        "documentation": {}
+    },
+    {
+        "label": "admin_pb2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "admin_pb2",
+        "description": "admin_pb2",
+        "detail": "admin_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "admin_pb2_grpc",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "admin_pb2_grpc",
+        "description": "admin_pb2_grpc",
+        "detail": "admin_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "traceback",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "traceback",
+        "description": "traceback",
+        "detail": "traceback",
+        "documentation": {}
+    },
+    {
+        "label": "futures",
+        "importPath": "concurrent",
+        "description": "concurrent",
+        "isExtraImport": true,
+        "detail": "concurrent",
+        "documentation": {}
+    },
+    {
+        "label": "futures",
+        "importPath": "concurrent",
+        "description": "concurrent",
+        "isExtraImport": true,
+        "detail": "concurrent",
+        "documentation": {}
+    },
+    {
+        "label": "time",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "time",
+        "description": "time",
+        "detail": "time",
+        "documentation": {}
+    },
+    {
+        "label": "logging",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "logging",
+        "description": "logging",
+        "detail": "logging",
+        "documentation": {}
+    },
+    {
+        "label": "jwt",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "jwt",
+        "description": "jwt",
+        "detail": "jwt",
+        "documentation": {}
+    },
+    {
+        "label": "random",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "random",
+        "description": "random",
+        "detail": "random",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database.config",
+        "description": "database.config",
+        "isExtraImport": true,
+        "detail": "database.config",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "importPath": "database.config",
+        "description": "database.config",
+        "isExtraImport": true,
+        "detail": "database.config",
+        "documentation": {}
+    },
+    {
+        "label": "Admin",
+        "importPath": "model.admin",
+        "description": "model.admin",
+        "isExtraImport": true,
+        "detail": "model.admin",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "setup",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "find_packages",
+        "importPath": "setuptools",
+        "description": "setuptools",
+        "isExtraImport": true,
+        "detail": "setuptools",
+        "documentation": {}
+    },
+    {
+        "label": "barangkeluar_pb2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "barangkeluar_pb2",
+        "description": "barangkeluar_pb2",
+        "detail": "barangkeluar_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "barangkeluar_pb2_grpc",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "barangkeluar_pb2_grpc",
+        "description": "barangkeluar_pb2_grpc",
+        "detail": "barangkeluar_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "BarangKeluar",
+        "importPath": "model.barangkeluar",
+        "description": "model.barangkeluar",
+        "isExtraImport": true,
+        "detail": "model.barangkeluar",
+        "documentation": {}
+    },
+    {
+        "label": "barangmasuk_pb2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "barangmasuk_pb2",
+        "description": "barangmasuk_pb2",
+        "detail": "barangmasuk_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "item_pb2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "item_pb2",
+        "description": "item_pb2",
+        "detail": "item_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "itemrack_pb2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "itemrack_pb2",
+        "description": "itemrack_pb2",
+        "detail": "itemrack_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "kategori_pb2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "kategori_pb2",
+        "description": "kategori_pb2",
+        "detail": "kategori_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "rack_pb2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "rack_pb2",
+        "description": "rack_pb2",
+        "detail": "rack_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "role_pb2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "role_pb2",
+        "description": "role_pb2",
+        "detail": "role_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "user_pb2",
+        "kind": 6,
+        "isExtraImport": true,
+        "importPath": "user_pb2",
+        "description": "user_pb2",
+        "detail": "user_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.34adc2d8cc3b_warehouse",
+        "description": "alembic.versions.34adc2d8cc3b_warehouse",
+        "peekOfCode": "def upgrade() -> None:\n    op.create_table(\n        \"admin\",\n        sa.Column(\n            \"id\", sa.Integer, autoincrement=True, nullable=False, primary_key=True\n        ),\n        sa.Column(\"email\", sa.String(255), nullable=False),\n        sa.Column(\"password\", sa.String(255), nullable=False),\n        sa.PrimaryKeyConstraint(\"id\"),\n    )",
+        "detail": "alembic.versions.34adc2d8cc3b_warehouse",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.34adc2d8cc3b_warehouse",
+        "description": "alembic.versions.34adc2d8cc3b_warehouse",
+        "peekOfCode": "def downgrade() -> None:\n    op.drop_table(\"admin\")\n    op.drop_table(\"kategori\")\n    op.drop_table(\"item\")\n    op.drop_table(\"barang_masuk\")\n    op.drop_table(\"barang_keluar\")\n    op.drop_table(\"rack\")\n    op.drop_table(\"itemRack\")\n    op.drop_table(\"role\")\n    op.drop_table(\"user\")",
+        "detail": "alembic.versions.34adc2d8cc3b_warehouse",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.3eb3d77c52c9_token",
+        "description": "alembic.versions.3eb3d77c52c9_token",
+        "peekOfCode": "def upgrade() -> None:\n    op.add_column(\"admin\", sa.Column(\"token\", sa.String(255), nullable=True))\ndef downgrade() -> None:\n    op.drop_column(\"admin\", \"token\")",
+        "detail": "alembic.versions.3eb3d77c52c9_token",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.3eb3d77c52c9_token",
+        "description": "alembic.versions.3eb3d77c52c9_token",
+        "peekOfCode": "def downgrade() -> None:\n    op.drop_column(\"admin\", \"token\")",
+        "detail": "alembic.versions.3eb3d77c52c9_token",
+        "documentation": {}
+    },
+    {
+        "label": "upgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.e8fef42043f4_tambah",
+        "description": "alembic.versions.e8fef42043f4_tambah",
+        "peekOfCode": "def upgrade() -> None:\n    op.add_column(\"admin\", sa.Column(\"otp\", sa.String(6), nullable=True))\ndef downgrade() -> None:\n    op.drop_column(\"admin\", \"otp\")",
+        "detail": "alembic.versions.e8fef42043f4_tambah",
+        "documentation": {}
+    },
+    {
+        "label": "downgrade",
+        "kind": 2,
+        "importPath": "alembic.versions.e8fef42043f4_tambah",
+        "description": "alembic.versions.e8fef42043f4_tambah",
+        "peekOfCode": "def downgrade() -> None:\n    op.drop_column(\"admin\", \"otp\")",
+        "detail": "alembic.versions.e8fef42043f4_tambah",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_offline",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation\n    we don't even need a DBAPI to be available.\n    Calls to context.execute() here emit the given string to the\n    script output.\n    \"\"\"\n    url = config.get_main_option(\"sqlalchemy.url\")",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "run_migrations_online",
+        "kind": 2,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "def run_migrations_online() -> None:\n    \"\"\"Run migrations in 'online' mode.\n    In this scenario we need to create an Engine\n    and associate a connection with the context.\n    \"\"\"\n    connectable = engine_from_config(\n        config.get_section(config.config_ini_section, {}),\n        prefix=\"sqlalchemy.\",\n        poolclass=pool.NullPool,\n    )",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "config",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "config = context.config\n# Interpret the config file for Python logging.\n# This line sets up loggers basically.\nif config.config_file_name is not None:\n    fileConfig(config.config_file_name)\n# add your model's MetaData object here\n# for 'autogenerate' support\n# from myapp import mymodel\n# target_metadata = mymodel.Base.metadata\ntarget_metadata = None",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "target_metadata",
+        "kind": 5,
+        "importPath": "alembic.env",
+        "description": "alembic.env",
+        "peekOfCode": "target_metadata = None\n# other values from the config, defined by the needs of env.py,\n# can be acquired:\n# my_important_option = config.get_main_option(\"my_important_option\")\n# ... etc.\ndef run_migrations_offline() -> None:\n    \"\"\"Run migrations in 'offline' mode.\n    This configures the context with just a URL\n    and not an Engine, though an Engine is acceptable\n    here as well.  By skipping the Engine creation",
+        "detail": "alembic.env",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "grpc_server.admin.database.config",
+        "description": "grpc_server.admin.database.config",
+        "peekOfCode": "engine = create_engine(\"mysql+mysqlconnector://root:@localhost:3306/warehouse\")",
+        "detail": "grpc_server.admin.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "Admin",
+        "kind": 6,
+        "importPath": "grpc_server.admin.model.admin",
+        "description": "grpc_server.admin.model.admin",
+        "peekOfCode": "class Admin(Base):\n    __tablename__ = \"admin\"\n    id: Mapped[int] = mapped_column(primary_key=True, autoincrement=True)\n    email: Mapped[str] = mapped_column(nullable=False)\n    password: Mapped[str] = mapped_column(nullable=False)\n    otp: Mapped[str] = mapped_column(nullable=True)\n    token: Mapped[str] = mapped_column(nullable=True)",
+        "detail": "grpc_server.admin.model.admin",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "grpc_server.admin.model.meta",
+        "description": "grpc_server.admin.model.meta",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass",
+        "detail": "grpc_server.admin.model.meta",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "grpc_server.admin.admin_pb2",
+        "description": "grpc_server.admin.admin_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x0b\\x61\\x64min.proto\\x12\\x05\\x61\\x64min\\\"P\\n\\x05\\x41\\x64min\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\r\\n\\x05\\x65mail\\x18\\x02 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x03 \\x01(\\t\\x12\\x0b\\n\\x03otp\\x18\\x04 \\x01(\\t\\x12\\r\\n\\x05token\\x18\\x05 \\x01(\\t\\\"\\x12\\n\\x10\\x41\\x64minListRequest\\\"0\\n\\x11\\x41\\x64minListResponse\\x12\\x1b\\n\\x05\\x61\\x64min\\x18\\x01 \\x03(\\x0b\\x32\\x0c.admin.Admin\\\"\\x1a\\n\\x0c\\x41\\x64minRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\",\\n\\rAdminResponse\\x12\\x1b\\n\\x05\\x61\\x64min\\x18\\x01 \\x01(\\x0b\\x32\\x0c.admin.Admin\\\"5\\n\\x12\\x41\\x64minCreateRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x02 \\x01(\\t\\\"2\\n\\x13\\x41\\x64minCreateResponse\\x12\\x1b\\n\\x05\\x61\\x64min\\x18\\x01 \\x01(\\x0b\\x32\\x0c.admin.Admin\\\"A\\n\\x12\\x41\\x64minUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x10\\n\\x08password\\x18\\x02 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x03 \\x01(\\t\\\"2\\n\\x13\\x41\\x64minUpdateResponse\\x12\\x1b\\n\\x05\\x61\\x64min\\x18\\x01 \\x01(\\x0b\\x32\\x0c.admin.Admin\\\" \\n\\x12\\x41\\x64minDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"&\\n\\x13\\x41\\x64minDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t\\\"4\\n\\x11\\x41\\x64minLoginRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x02 \\x01(\\t\\\">\\n\\x12\\x41\\x64minLoginResponse\\x12\\r\\n\\x05token\\x18\\x01 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x02 \\x01(\\t\\x12\\n\\n\\x02id\\x18\\x03 \\x01(\\x05\\\"#\\n\\x12\\x41\\x64minLogoutRequest\\x12\\r\\n\\x05token\\x18\\x01 \\x01(\\t\\\"&\\n\\x13\\x41\\x64minLogoutResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t\\\" \\n\\x0f\\x41\\x64minOtpRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\\"K\\n\\x10\\x41\\x64minOtpResponse\\x12\\x0b\\n\\x03otp\\x18\\x01 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x02 \\x01(\\t\\x12\\x0f\\n\\x07message\\x18\\x03 \\x01(\\t\\x12\\n\\n\\x02id\\x18\\x04 \\x01(\\x05\\\"3\\n\\x15\\x41\\x64minVerifyOtpRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\x12\\x0b\\n\\x03otp\\x18\\x02 \\x01(\\t\\\")\\n\\x16\\x41\\x64minVerifyOtpResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t\\\"<\\n\\x19\\x41\\x64minResetPasswordRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x02 \\x01(\\t\\\"-\\n\\x1a\\x41\\x64minResetPasswordResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\x95\\x05\\n\\x0c\\x41\\x64minService\\x12\\x39\\n\\x04list\\x12\\x17.admin.AdminListRequest\\x1a\\x18.admin.AdminListResponse\\x12\\x30\\n\\x03get\\x12\\x13.admin.AdminRequest\\x1a\\x14.admin.AdminResponse\\x12?\\n\\x06\\x63reate\\x12\\x19.admin.AdminCreateRequest\\x1a\\x1a.admin.AdminCreateResponse\\x12?\\n\\x06update\\x12\\x19.admin.AdminUpdateRequest\\x1a\\x1a.admin.AdminUpdateResponse\\x12?\\n\\x06\\x64\\x65lete\\x12\\x19.admin.AdminDeleteRequest\\x1a\\x1a.admin.AdminDeleteResponse\\x12<\\n\\x05login\\x12\\x18.admin.AdminLoginRequest\\x1a\\x19.admin.AdminLoginResponse\\x12?\\n\\x06logout\\x12\\x19.admin.AdminLogoutRequest\\x1a\\x1a.admin.AdminLogoutResponse\\x12\\x36\\n\\x03otp\\x12\\x16.admin.AdminOtpRequest\\x1a\\x17.admin.AdminOtpResponse\\x12H\\n\\tverifyOtp\\x12\\x1c.admin.AdminVerifyOtpRequest\\x1a\\x1d.admin.AdminVerifyOtpResponse\\x12T\\n\\rresetPassword\\x12 .admin.AdminResetPasswordRequest\\x1a!.admin.AdminResetPasswordResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'admin_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ADMIN']._serialized_start=22\n  _globals['_ADMIN']._serialized_end=102\n  _globals['_ADMINLISTREQUEST']._serialized_start=104",
+        "detail": "grpc_server.admin.admin_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "grpc_server.admin.admin_pb2",
+        "description": "grpc_server.admin.admin_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x0b\\x61\\x64min.proto\\x12\\x05\\x61\\x64min\\\"P\\n\\x05\\x41\\x64min\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\r\\n\\x05\\x65mail\\x18\\x02 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x03 \\x01(\\t\\x12\\x0b\\n\\x03otp\\x18\\x04 \\x01(\\t\\x12\\r\\n\\x05token\\x18\\x05 \\x01(\\t\\\"\\x12\\n\\x10\\x41\\x64minListRequest\\\"0\\n\\x11\\x41\\x64minListResponse\\x12\\x1b\\n\\x05\\x61\\x64min\\x18\\x01 \\x03(\\x0b\\x32\\x0c.admin.Admin\\\"\\x1a\\n\\x0c\\x41\\x64minRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\",\\n\\rAdminResponse\\x12\\x1b\\n\\x05\\x61\\x64min\\x18\\x01 \\x01(\\x0b\\x32\\x0c.admin.Admin\\\"5\\n\\x12\\x41\\x64minCreateRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x02 \\x01(\\t\\\"2\\n\\x13\\x41\\x64minCreateResponse\\x12\\x1b\\n\\x05\\x61\\x64min\\x18\\x01 \\x01(\\x0b\\x32\\x0c.admin.Admin\\\"A\\n\\x12\\x41\\x64minUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x10\\n\\x08password\\x18\\x02 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x03 \\x01(\\t\\\"2\\n\\x13\\x41\\x64minUpdateResponse\\x12\\x1b\\n\\x05\\x61\\x64min\\x18\\x01 \\x01(\\x0b\\x32\\x0c.admin.Admin\\\" \\n\\x12\\x41\\x64minDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"&\\n\\x13\\x41\\x64minDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t\\\"4\\n\\x11\\x41\\x64minLoginRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x02 \\x01(\\t\\\">\\n\\x12\\x41\\x64minLoginResponse\\x12\\r\\n\\x05token\\x18\\x01 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x02 \\x01(\\t\\x12\\n\\n\\x02id\\x18\\x03 \\x01(\\x05\\\"#\\n\\x12\\x41\\x64minLogoutRequest\\x12\\r\\n\\x05token\\x18\\x01 \\x01(\\t\\\"&\\n\\x13\\x41\\x64minLogoutResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t\\\" \\n\\x0f\\x41\\x64minOtpRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\\"K\\n\\x10\\x41\\x64minOtpResponse\\x12\\x0b\\n\\x03otp\\x18\\x01 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x02 \\x01(\\t\\x12\\x0f\\n\\x07message\\x18\\x03 \\x01(\\t\\x12\\n\\n\\x02id\\x18\\x04 \\x01(\\x05\\\"3\\n\\x15\\x41\\x64minVerifyOtpRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\x12\\x0b\\n\\x03otp\\x18\\x02 \\x01(\\t\\\")\\n\\x16\\x41\\x64minVerifyOtpResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t\\\"<\\n\\x19\\x41\\x64minResetPasswordRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x02 \\x01(\\t\\\"-\\n\\x1a\\x41\\x64minResetPasswordResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\x95\\x05\\n\\x0c\\x41\\x64minService\\x12\\x39\\n\\x04list\\x12\\x17.admin.AdminListRequest\\x1a\\x18.admin.AdminListResponse\\x12\\x30\\n\\x03get\\x12\\x13.admin.AdminRequest\\x1a\\x14.admin.AdminResponse\\x12?\\n\\x06\\x63reate\\x12\\x19.admin.AdminCreateRequest\\x1a\\x1a.admin.AdminCreateResponse\\x12?\\n\\x06update\\x12\\x19.admin.AdminUpdateRequest\\x1a\\x1a.admin.AdminUpdateResponse\\x12?\\n\\x06\\x64\\x65lete\\x12\\x19.admin.AdminDeleteRequest\\x1a\\x1a.admin.AdminDeleteResponse\\x12<\\n\\x05login\\x12\\x18.admin.AdminLoginRequest\\x1a\\x19.admin.AdminLoginResponse\\x12?\\n\\x06logout\\x12\\x19.admin.AdminLogoutRequest\\x1a\\x1a.admin.AdminLogoutResponse\\x12\\x36\\n\\x03otp\\x12\\x16.admin.AdminOtpRequest\\x1a\\x17.admin.AdminOtpResponse\\x12H\\n\\tverifyOtp\\x12\\x1c.admin.AdminVerifyOtpRequest\\x1a\\x1d.admin.AdminVerifyOtpResponse\\x12T\\n\\rresetPassword\\x12 .admin.AdminResetPasswordRequest\\x1a!.admin.AdminResetPasswordResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'admin_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ADMIN']._serialized_start=22\n  _globals['_ADMIN']._serialized_end=102\n  _globals['_ADMINLISTREQUEST']._serialized_start=104\n  _globals['_ADMINLISTREQUEST']._serialized_end=122",
+        "detail": "grpc_server.admin.admin_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "grpc_server.admin.admin_pb2",
+        "description": "grpc_server.admin.admin_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'admin_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ADMIN']._serialized_start=22\n  _globals['_ADMIN']._serialized_end=102\n  _globals['_ADMINLISTREQUEST']._serialized_start=104\n  _globals['_ADMINLISTREQUEST']._serialized_end=122\n  _globals['_ADMINLISTRESPONSE']._serialized_start=124",
+        "detail": "grpc_server.admin.admin_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "AdminServiceStub",
+        "kind": 6,
+        "importPath": "grpc_server.admin.admin_pb2_grpc",
+        "description": "grpc_server.admin.admin_pb2_grpc",
+        "peekOfCode": "class AdminServiceStub(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def __init__(self, channel):\n        \"\"\"Constructor.\n        Args:\n            channel: A grpc.Channel.\n        \"\"\"\n        self.list = channel.unary_unary(\n                '/admin.AdminService/list',\n                request_serializer=admin__pb2.AdminListRequest.SerializeToString,",
+        "detail": "grpc_server.admin.admin_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "AdminServiceServicer",
+        "kind": 6,
+        "importPath": "grpc_server.admin.admin_pb2_grpc",
+        "description": "grpc_server.admin.admin_pb2_grpc",
+        "peekOfCode": "class AdminServiceServicer(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def list(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)\n        context.set_details('Method not implemented!')\n        raise NotImplementedError('Method not implemented!')\n    def get(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)",
+        "detail": "grpc_server.admin.admin_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "AdminService",
+        "kind": 6,
+        "importPath": "grpc_server.admin.admin_pb2_grpc",
+        "description": "grpc_server.admin.admin_pb2_grpc",
+        "peekOfCode": "class AdminService(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    @staticmethod\n    def list(request,\n            target,\n            options=(),\n            channel_credentials=None,\n            call_credentials=None,\n            insecure=False,\n            compression=None,",
+        "detail": "grpc_server.admin.admin_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "add_AdminServiceServicer_to_server",
+        "kind": 2,
+        "importPath": "grpc_server.admin.admin_pb2_grpc",
+        "description": "grpc_server.admin.admin_pb2_grpc",
+        "peekOfCode": "def add_AdminServiceServicer_to_server(servicer, server):\n    rpc_method_handlers = {\n            'list': grpc.unary_unary_rpc_method_handler(\n                    servicer.list,\n                    request_deserializer=admin__pb2.AdminListRequest.FromString,\n                    response_serializer=admin__pb2.AdminListResponse.SerializeToString,\n            ),\n            'get': grpc.unary_unary_rpc_method_handler(\n                    servicer.get,\n                    request_deserializer=admin__pb2.AdminRequest.FromString,",
+        "detail": "grpc_server.admin.admin_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "AdminClient",
+        "kind": 6,
+        "importPath": "grpc_server.admin.client",
+        "description": "grpc_server.admin.client",
+        "peekOfCode": "class AdminClient:\n    def __init__(self):\n        self.host = \"localhost\"\n        self.server_port = 5002\n        self.channel = grpc.insecure_channel(f\"{self.host}:{self.server_port}\")\n        self.stub = admin_pb2_grpc.AdminServiceStub(self.channel)\n    def list_admin(self):\n        try:\n            res = self.stub.list(admin_pb2.AdminListRequest())\n            if len(res.admin) == 0:",
+        "detail": "grpc_server.admin.client",
+        "documentation": {}
+    },
+    {
+        "label": "AdminService",
+        "kind": 6,
+        "importPath": "grpc_server.admin.server",
+        "description": "grpc_server.admin.server",
+        "peekOfCode": "class AdminService(admin_pb2_grpc.AdminServiceServicer):\n    def list(self, request, context):\n        try:\n            with engine.connect() as db:\n                db.begin()\n                response = db.execute(select(Admin).order_by(desc(Admin.id)))\n                admin = []\n                for row in response:\n                    admin.append(\n                        admin_pb2.Admin(",
+        "detail": "grpc_server.admin.server",
+        "documentation": {}
+    },
+    {
+        "label": "serve",
+        "kind": 2,
+        "importPath": "grpc_server.admin.server",
+        "description": "grpc_server.admin.server",
+        "peekOfCode": "def serve():\n    server = grpc.server(futures.ThreadPoolExecutor(max_workers=10))\n    admin_pb2_grpc.add_AdminServiceServicer_to_server(AdminService(), server)\n    server.add_insecure_port(\"localhost:5002\")\n    server.start()\n    print(\"Server started, listening on 5002\")\n    server.wait_for_termination()\nif __name__ == \"__main__\":\n    logging.basicConfig()\n    serve()",
+        "detail": "grpc_server.admin.server",
+        "documentation": {}
+    },
+    {
+        "label": "requires",
+        "kind": 5,
+        "importPath": "grpc_server.admin.setup",
+        "description": "grpc_server.admin.setup",
+        "peekOfCode": "requires = [\n    \"grpcio\",\n    \"grpcio-tools\",\n    \"pyjwt\",\n    \"PyMySQL\",\n    \"SQLAlchemy\",\n    \"mysql-connector-python\",\n]\ntests_require = [\n    \"pytest\",",
+        "detail": "grpc_server.admin.setup",
+        "documentation": {}
+    },
+    {
+        "label": "tests_require",
+        "kind": 5,
+        "importPath": "grpc_server.admin.setup",
+        "description": "grpc_server.admin.setup",
+        "peekOfCode": "tests_require = [\n    \"pytest\",\n    \"pytest-cov\",\n]\nsetup(\n    name=\"server\",\n    version=\"0.0\",\n    description=\"server\",\n    classifiers=[\n        \"Programming Language :: Python\",",
+        "detail": "grpc_server.admin.setup",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "grpc_server.barangkeluar.database.config",
+        "description": "grpc_server.barangkeluar.database.config",
+        "peekOfCode": "engine = create_engine(\"mysql+mysqlconnector://root:@localhost:3306/warehouse\")",
+        "detail": "grpc_server.barangkeluar.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "BarangKeluar",
+        "kind": 6,
+        "importPath": "grpc_server.barangkeluar.model.barangkeluar",
+        "description": "grpc_server.barangkeluar.model.barangkeluar",
+        "peekOfCode": "class BarangKeluar(Base):\n    __tablename__ = \"barang_keluar\"\n    id:Mapped[int] = mapped_column(primary_key=True, autoincrement=True)\n    name:Mapped[str] = mapped_column(nullable=False)\n    tanggalKeluar:Mapped[str] = mapped_column(nullable=False)\n    supplierId:Mapped[str] = mapped_column(nullable=False)\n    qty:Mapped[int] = mapped_column(nullable=False)",
+        "detail": "grpc_server.barangkeluar.model.barangkeluar",
+        "documentation": {}
+    },
+    {
+        "label": "Base",
+        "kind": 6,
+        "importPath": "grpc_server.barangkeluar.model.meta",
+        "description": "grpc_server.barangkeluar.model.meta",
+        "peekOfCode": "class Base(DeclarativeBase):\n    pass",
+        "detail": "grpc_server.barangkeluar.model.meta",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "grpc_server.barangkeluar.barangkeluar_pb2",
+        "description": "grpc_server.barangkeluar.barangkeluar_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x12\\x62\\x61rangkeluar.proto\\x12\\x0c\\x62\\x61rangkeluar\\\"`\\n\\x0c\\x42\\x61rangKeluar\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x15\\n\\rtanggalKeluar\\x18\\x03 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x04 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x05 \\x01(\\x05\\\"\\x19\\n\\x17\\x42\\x61rangKeluarListRequest\\\"L\\n\\x18\\x42\\x61rangKeluarListResponse\\x12\\x30\\n\\x0c\\x62\\x61rangkeluar\\x18\\x01 \\x03(\\x0b\\x32\\x1a.barangkeluar.BarangKeluar\\\"\\'\\n\\x19\\x42\\x61rangKeluarDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"N\\n\\x1a\\x42\\x61rangKeluarDetailResponse\\x12\\x30\\n\\x0c\\x62\\x61rangkeluar\\x18\\x01 \\x01(\\x0b\\x32\\x1a.barangkeluar.BarangKeluar\\\"a\\n\\x19\\x42\\x61rangKeluarCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\x12\\x15\\n\\rtanggalKeluar\\x18\\x02 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x03 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x04 \\x01(\\x05\\\"N\\n\\x1a\\x42\\x61rangKeluarCreateResponse\\x12\\x30\\n\\x0c\\x62\\x61rangkeluar\\x18\\x01 \\x01(\\x0b\\x32\\x1a.barangkeluar.BarangKeluar\\\"m\\n\\x19\\x42\\x61rangKeluarUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x15\\n\\rtanggalKeluar\\x18\\x03 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x04 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x05 \\x01(\\x05\\\"_\\n\\x1a\\x42\\x61rangKeluarUpdateResponse\\x12\\x30\\n\\x0c\\x62\\x61rangkeluar\\x18\\x01 \\x01(\\x0b\\x32\\x1a.barangkeluar.BarangKeluar\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"\\'\\n\\x19\\x42\\x61rangKeluarDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"-\\n\\x1a\\x42\\x61rangKeluarDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\xdd\\x03\\n\\x13\\x42\\x61rangKeluarService\\x12U\\n\\x04list\\x12%.barangkeluar.BarangKeluarListRequest\\x1a&.barangkeluar.BarangKeluarListResponse\\x12X\\n\\x03get\\x12\\'.barangkeluar.BarangKeluarDetailRequest\\x1a(.barangkeluar.BarangKeluarDetailResponse\\x12[\\n\\x06\\x63reate\\x12\\'.barangkeluar.BarangKeluarCreateRequest\\x1a(.barangkeluar.BarangKeluarCreateResponse\\x12[\\n\\x06update\\x12\\'.barangkeluar.BarangKeluarUpdateRequest\\x1a(.barangkeluar.BarangKeluarUpdateResponse\\x12[\\n\\x06\\x64\\x65lete\\x12\\'.barangkeluar.BarangKeluarDeleteRequest\\x1a(.barangkeluar.BarangKeluarDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'barangkeluar_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_BARANGKELUAR']._serialized_start=36\n  _globals['_BARANGKELUAR']._serialized_end=132\n  _globals['_BARANGKELUARLISTREQUEST']._serialized_start=134",
+        "detail": "grpc_server.barangkeluar.barangkeluar_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "grpc_server.barangkeluar.barangkeluar_pb2",
+        "description": "grpc_server.barangkeluar.barangkeluar_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x12\\x62\\x61rangkeluar.proto\\x12\\x0c\\x62\\x61rangkeluar\\\"`\\n\\x0c\\x42\\x61rangKeluar\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x15\\n\\rtanggalKeluar\\x18\\x03 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x04 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x05 \\x01(\\x05\\\"\\x19\\n\\x17\\x42\\x61rangKeluarListRequest\\\"L\\n\\x18\\x42\\x61rangKeluarListResponse\\x12\\x30\\n\\x0c\\x62\\x61rangkeluar\\x18\\x01 \\x03(\\x0b\\x32\\x1a.barangkeluar.BarangKeluar\\\"\\'\\n\\x19\\x42\\x61rangKeluarDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"N\\n\\x1a\\x42\\x61rangKeluarDetailResponse\\x12\\x30\\n\\x0c\\x62\\x61rangkeluar\\x18\\x01 \\x01(\\x0b\\x32\\x1a.barangkeluar.BarangKeluar\\\"a\\n\\x19\\x42\\x61rangKeluarCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\x12\\x15\\n\\rtanggalKeluar\\x18\\x02 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x03 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x04 \\x01(\\x05\\\"N\\n\\x1a\\x42\\x61rangKeluarCreateResponse\\x12\\x30\\n\\x0c\\x62\\x61rangkeluar\\x18\\x01 \\x01(\\x0b\\x32\\x1a.barangkeluar.BarangKeluar\\\"m\\n\\x19\\x42\\x61rangKeluarUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x15\\n\\rtanggalKeluar\\x18\\x03 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x04 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x05 \\x01(\\x05\\\"_\\n\\x1a\\x42\\x61rangKeluarUpdateResponse\\x12\\x30\\n\\x0c\\x62\\x61rangkeluar\\x18\\x01 \\x01(\\x0b\\x32\\x1a.barangkeluar.BarangKeluar\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"\\'\\n\\x19\\x42\\x61rangKeluarDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"-\\n\\x1a\\x42\\x61rangKeluarDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\xdd\\x03\\n\\x13\\x42\\x61rangKeluarService\\x12U\\n\\x04list\\x12%.barangkeluar.BarangKeluarListRequest\\x1a&.barangkeluar.BarangKeluarListResponse\\x12X\\n\\x03get\\x12\\'.barangkeluar.BarangKeluarDetailRequest\\x1a(.barangkeluar.BarangKeluarDetailResponse\\x12[\\n\\x06\\x63reate\\x12\\'.barangkeluar.BarangKeluarCreateRequest\\x1a(.barangkeluar.BarangKeluarCreateResponse\\x12[\\n\\x06update\\x12\\'.barangkeluar.BarangKeluarUpdateRequest\\x1a(.barangkeluar.BarangKeluarUpdateResponse\\x12[\\n\\x06\\x64\\x65lete\\x12\\'.barangkeluar.BarangKeluarDeleteRequest\\x1a(.barangkeluar.BarangKeluarDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'barangkeluar_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_BARANGKELUAR']._serialized_start=36\n  _globals['_BARANGKELUAR']._serialized_end=132\n  _globals['_BARANGKELUARLISTREQUEST']._serialized_start=134\n  _globals['_BARANGKELUARLISTREQUEST']._serialized_end=159",
+        "detail": "grpc_server.barangkeluar.barangkeluar_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "grpc_server.barangkeluar.barangkeluar_pb2",
+        "description": "grpc_server.barangkeluar.barangkeluar_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'barangkeluar_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_BARANGKELUAR']._serialized_start=36\n  _globals['_BARANGKELUAR']._serialized_end=132\n  _globals['_BARANGKELUARLISTREQUEST']._serialized_start=134\n  _globals['_BARANGKELUARLISTREQUEST']._serialized_end=159\n  _globals['_BARANGKELUARLISTRESPONSE']._serialized_start=161",
+        "detail": "grpc_server.barangkeluar.barangkeluar_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "BarangKeluarServiceStub",
+        "kind": 6,
+        "importPath": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "description": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "peekOfCode": "class BarangKeluarServiceStub(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def __init__(self, channel):\n        \"\"\"Constructor.\n        Args:\n            channel: A grpc.Channel.\n        \"\"\"\n        self.list = channel.unary_unary(\n                '/barangkeluar.BarangKeluarService/list',\n                request_serializer=barangkeluar__pb2.BarangKeluarListRequest.SerializeToString,",
+        "detail": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "BarangKeluarServiceServicer",
+        "kind": 6,
+        "importPath": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "description": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "peekOfCode": "class BarangKeluarServiceServicer(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def list(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)\n        context.set_details('Method not implemented!')\n        raise NotImplementedError('Method not implemented!')\n    def get(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)",
+        "detail": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "BarangKeluarService",
+        "kind": 6,
+        "importPath": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "description": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "peekOfCode": "class BarangKeluarService(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    @staticmethod\n    def list(request,\n            target,\n            options=(),\n            channel_credentials=None,\n            call_credentials=None,\n            insecure=False,\n            compression=None,",
+        "detail": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "add_BarangKeluarServiceServicer_to_server",
+        "kind": 2,
+        "importPath": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "description": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "peekOfCode": "def add_BarangKeluarServiceServicer_to_server(servicer, server):\n    rpc_method_handlers = {\n            'list': grpc.unary_unary_rpc_method_handler(\n                    servicer.list,\n                    request_deserializer=barangkeluar__pb2.BarangKeluarListRequest.FromString,\n                    response_serializer=barangkeluar__pb2.BarangKeluarListResponse.SerializeToString,\n            ),\n            'get': grpc.unary_unary_rpc_method_handler(\n                    servicer.get,\n                    request_deserializer=barangkeluar__pb2.BarangKeluarDetailRequest.FromString,",
+        "detail": "grpc_server.barangkeluar.barangkeluar_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "BarangKeluarService",
+        "kind": 6,
+        "importPath": "grpc_server.barangkeluar.server",
+        "description": "grpc_server.barangkeluar.server",
+        "peekOfCode": "class BarangKeluarService(barangkeluar_pb2_grpc.BarangKeluarServiceServicer):\n    def list(self,request,context):\n        try:\n            with engine.connect()",
+        "detail": "grpc_server.barangkeluar.server",
+        "documentation": {}
+    },
+    {
+        "label": "requires",
+        "kind": 5,
+        "importPath": "grpc_server.barangkeluar.setup",
+        "description": "grpc_server.barangkeluar.setup",
+        "peekOfCode": "requires = [\n    \"grpcio\",\n    \"grpcio-tools\",\n    \"alembic\",\n    \"PyMySQL\",\n    \"SQLAlchemy\",\n    \"mysql-connector-python\",\n]\ntests_require = [\n    \"pytest\",",
+        "detail": "grpc_server.barangkeluar.setup",
+        "documentation": {}
+    },
+    {
+        "label": "tests_require",
+        "kind": 5,
+        "importPath": "grpc_server.barangkeluar.setup",
+        "description": "grpc_server.barangkeluar.setup",
+        "peekOfCode": "tests_require = [\n    \"pytest\",\n    \"pytest-cov\",\n]\nsetup(\n    name=\"server\",\n    version=\"0.0\",\n    description=\"server\",\n    classifiers=[\n        \"Programming Language :: Python\",",
+        "detail": "grpc_server.barangkeluar.setup",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "grpc_server.barangmasuk.database.config",
+        "description": "grpc_server.barangmasuk.database.config",
+        "peekOfCode": "engine = create_engine(\"mysql+mysqlconnector://root:@localhost:3306/warehouse\")",
+        "detail": "grpc_server.barangmasuk.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "grpc_server.barangmasuk.barangmasuk_pb2",
+        "description": "grpc_server.barangmasuk.barangmasuk_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x11\\x62\\x61rangmasuk.proto\\x12\\x0b\\x62\\x61rangmasuk\\\"^\\n\\x0b\\x42\\x61rangMasuk\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x14\\n\\x0ctanggalMasuk\\x18\\x03 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x04 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x05 \\x01(\\x05\\\"\\x18\\n\\x16\\x42\\x61rangMasukListRequest\\\"H\\n\\x17\\x42\\x61rangMasukListResponse\\x12-\\n\\x0b\\x62\\x61rangmasuk\\x18\\x01 \\x03(\\x0b\\x32\\x18.barangmasuk.BarangMasuk\\\"&\\n\\x18\\x42\\x61rangMasukDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"J\\n\\x19\\x42\\x61rangMasukDetailResponse\\x12-\\n\\x0b\\x62\\x61rangmasuk\\x18\\x01 \\x01(\\x0b\\x32\\x18.barangmasuk.BarangMasuk\\\"_\\n\\x18\\x42\\x61rangMasukCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\x12\\x14\\n\\x0ctanggalMasuk\\x18\\x02 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x03 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x04 \\x01(\\x05\\\"J\\n\\x19\\x42\\x61rangMasukCreateResponse\\x12-\\n\\x0b\\x62\\x61rangmasuk\\x18\\x01 \\x01(\\x0b\\x32\\x18.barangmasuk.BarangMasuk\\\"k\\n\\x18\\x42\\x61rangMasukUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x14\\n\\x0ctanggalMasuk\\x18\\x03 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x04 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x05 \\x01(\\x05\\\"[\\n\\x19\\x42\\x61rangMasukUpdateResponse\\x12-\\n\\x0b\\x62\\x61rangmasuk\\x18\\x01 \\x01(\\x0b\\x32\\x18.barangmasuk.BarangMasuk\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"&\\n\\x18\\x42\\x61rangMasukDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\",\\n\\x19\\x42\\x61rangMasukDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\xc8\\x03\\n\\x12\\x42\\x61rangMasukService\\x12Q\\n\\x04list\\x12#.barangmasuk.BarangMasukListRequest\\x1a$.barangmasuk.BarangMasukListResponse\\x12T\\n\\x03get\\x12%.barangmasuk.BarangMasukDetailRequest\\x1a&.barangmasuk.BarangMasukDetailResponse\\x12W\\n\\x06\\x63reate\\x12%.barangmasuk.BarangMasukCreateRequest\\x1a&.barangmasuk.BarangMasukCreateResponse\\x12W\\n\\x06update\\x12%.barangmasuk.BarangMasukUpdateRequest\\x1a&.barangmasuk.BarangMasukUpdateResponse\\x12W\\n\\x06\\x64\\x65lete\\x12%.barangmasuk.BarangMasukDeleteRequest\\x1a&.barangmasuk.BarangMasukDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'barangmasuk_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_BARANGMASUK']._serialized_start=34\n  _globals['_BARANGMASUK']._serialized_end=128\n  _globals['_BARANGMASUKLISTREQUEST']._serialized_start=130",
+        "detail": "grpc_server.barangmasuk.barangmasuk_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "grpc_server.barangmasuk.barangmasuk_pb2",
+        "description": "grpc_server.barangmasuk.barangmasuk_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x11\\x62\\x61rangmasuk.proto\\x12\\x0b\\x62\\x61rangmasuk\\\"^\\n\\x0b\\x42\\x61rangMasuk\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x14\\n\\x0ctanggalMasuk\\x18\\x03 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x04 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x05 \\x01(\\x05\\\"\\x18\\n\\x16\\x42\\x61rangMasukListRequest\\\"H\\n\\x17\\x42\\x61rangMasukListResponse\\x12-\\n\\x0b\\x62\\x61rangmasuk\\x18\\x01 \\x03(\\x0b\\x32\\x18.barangmasuk.BarangMasuk\\\"&\\n\\x18\\x42\\x61rangMasukDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"J\\n\\x19\\x42\\x61rangMasukDetailResponse\\x12-\\n\\x0b\\x62\\x61rangmasuk\\x18\\x01 \\x01(\\x0b\\x32\\x18.barangmasuk.BarangMasuk\\\"_\\n\\x18\\x42\\x61rangMasukCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\x12\\x14\\n\\x0ctanggalMasuk\\x18\\x02 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x03 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x04 \\x01(\\x05\\\"J\\n\\x19\\x42\\x61rangMasukCreateResponse\\x12-\\n\\x0b\\x62\\x61rangmasuk\\x18\\x01 \\x01(\\x0b\\x32\\x18.barangmasuk.BarangMasuk\\\"k\\n\\x18\\x42\\x61rangMasukUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x14\\n\\x0ctanggalMasuk\\x18\\x03 \\x01(\\t\\x12\\x12\\n\\nsupplierId\\x18\\x04 \\x01(\\t\\x12\\x0b\\n\\x03qty\\x18\\x05 \\x01(\\x05\\\"[\\n\\x19\\x42\\x61rangMasukUpdateResponse\\x12-\\n\\x0b\\x62\\x61rangmasuk\\x18\\x01 \\x01(\\x0b\\x32\\x18.barangmasuk.BarangMasuk\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"&\\n\\x18\\x42\\x61rangMasukDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\",\\n\\x19\\x42\\x61rangMasukDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\xc8\\x03\\n\\x12\\x42\\x61rangMasukService\\x12Q\\n\\x04list\\x12#.barangmasuk.BarangMasukListRequest\\x1a$.barangmasuk.BarangMasukListResponse\\x12T\\n\\x03get\\x12%.barangmasuk.BarangMasukDetailRequest\\x1a&.barangmasuk.BarangMasukDetailResponse\\x12W\\n\\x06\\x63reate\\x12%.barangmasuk.BarangMasukCreateRequest\\x1a&.barangmasuk.BarangMasukCreateResponse\\x12W\\n\\x06update\\x12%.barangmasuk.BarangMasukUpdateRequest\\x1a&.barangmasuk.BarangMasukUpdateResponse\\x12W\\n\\x06\\x64\\x65lete\\x12%.barangmasuk.BarangMasukDeleteRequest\\x1a&.barangmasuk.BarangMasukDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'barangmasuk_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_BARANGMASUK']._serialized_start=34\n  _globals['_BARANGMASUK']._serialized_end=128\n  _globals['_BARANGMASUKLISTREQUEST']._serialized_start=130\n  _globals['_BARANGMASUKLISTREQUEST']._serialized_end=154",
+        "detail": "grpc_server.barangmasuk.barangmasuk_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "grpc_server.barangmasuk.barangmasuk_pb2",
+        "description": "grpc_server.barangmasuk.barangmasuk_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'barangmasuk_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_BARANGMASUK']._serialized_start=34\n  _globals['_BARANGMASUK']._serialized_end=128\n  _globals['_BARANGMASUKLISTREQUEST']._serialized_start=130\n  _globals['_BARANGMASUKLISTREQUEST']._serialized_end=154\n  _globals['_BARANGMASUKLISTRESPONSE']._serialized_start=156",
+        "detail": "grpc_server.barangmasuk.barangmasuk_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "BarangMasukServiceStub",
+        "kind": 6,
+        "importPath": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "description": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "peekOfCode": "class BarangMasukServiceStub(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def __init__(self, channel):\n        \"\"\"Constructor.\n        Args:\n            channel: A grpc.Channel.\n        \"\"\"\n        self.list = channel.unary_unary(\n                '/barangmasuk.BarangMasukService/list',\n                request_serializer=barangmasuk__pb2.BarangMasukListRequest.SerializeToString,",
+        "detail": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "BarangMasukServiceServicer",
+        "kind": 6,
+        "importPath": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "description": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "peekOfCode": "class BarangMasukServiceServicer(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def list(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)\n        context.set_details('Method not implemented!')\n        raise NotImplementedError('Method not implemented!')\n    def get(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)",
+        "detail": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "BarangMasukService",
+        "kind": 6,
+        "importPath": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "description": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "peekOfCode": "class BarangMasukService(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    @staticmethod\n    def list(request,\n            target,\n            options=(),\n            channel_credentials=None,\n            call_credentials=None,\n            insecure=False,\n            compression=None,",
+        "detail": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "add_BarangMasukServiceServicer_to_server",
+        "kind": 2,
+        "importPath": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "description": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "peekOfCode": "def add_BarangMasukServiceServicer_to_server(servicer, server):\n    rpc_method_handlers = {\n            'list': grpc.unary_unary_rpc_method_handler(\n                    servicer.list,\n                    request_deserializer=barangmasuk__pb2.BarangMasukListRequest.FromString,\n                    response_serializer=barangmasuk__pb2.BarangMasukListResponse.SerializeToString,\n            ),\n            'get': grpc.unary_unary_rpc_method_handler(\n                    servicer.get,\n                    request_deserializer=barangmasuk__pb2.BarangMasukDetailRequest.FromString,",
+        "detail": "grpc_server.barangmasuk.barangmasuk_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "requires",
+        "kind": 5,
+        "importPath": "grpc_server.barangmasuk.setup",
+        "description": "grpc_server.barangmasuk.setup",
+        "peekOfCode": "requires = [\n    \"grpcio\",\n    \"grpcio-tools\",\n    \"alembic\",\n    \"PyMySQL\",\n    \"SQLAlchemy\",\n    \"mysql-connector-python\",\n]\ntests_require = [\n    \"pytest\",",
+        "detail": "grpc_server.barangmasuk.setup",
+        "documentation": {}
+    },
+    {
+        "label": "tests_require",
+        "kind": 5,
+        "importPath": "grpc_server.barangmasuk.setup",
+        "description": "grpc_server.barangmasuk.setup",
+        "peekOfCode": "tests_require = [\n    \"pytest\",\n    \"pytest-cov\",\n]\nsetup(\n    name=\"server\",\n    version=\"0.0\",\n    description=\"server\",\n    classifiers=[\n        \"Programming Language :: Python\",",
+        "detail": "grpc_server.barangmasuk.setup",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "grpc_server.item.database.config",
+        "description": "grpc_server.item.database.config",
+        "peekOfCode": "engine = create_engine(\"mysql+mysqlconnector://root:@localhost:3306/warehouse\")",
+        "detail": "grpc_server.item.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "grpc_server.item.item_pb2",
+        "description": "grpc_server.item.item_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\nitem.proto\\x12\\x04item\\\"4\\n\\x04Item\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x12\\n\\nkategoriId\\x18\\x03 \\x01(\\t\\\"\\x11\\n\\x0fItemListRequest\\\",\\n\\x10ItemListResponse\\x12\\x18\\n\\x04Item\\x18\\x01 \\x03(\\x0b\\x32\\n.item.Item\\\"\\x1f\\n\\x11ItemDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\".\\n\\x12ItemDetailResponse\\x12\\x18\\n\\x04item\\x18\\x01 \\x01(\\x0b\\x32\\n.item.Item\\\"5\\n\\x11ItemCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\x12\\x12\\n\\nkategoriId\\x18\\x02 \\x01(\\t\\\".\\n\\x12ItemCreateResponse\\x12\\x18\\n\\x04item\\x18\\x01 \\x01(\\x0b\\x32\\n.item.Item\\\"-\\n\\x11ItemUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"?\\n\\x12ItemUpdateResponse\\x12\\x18\\n\\x04item\\x18\\x01 \\x01(\\x0b\\x32\\n.item.Item\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"\\x1f\\n\\x11ItemDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"%\\n\\x12ItemDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\xb8\\x02\\n\\x0bItemService\\x12\\x35\\n\\x04list\\x12\\x15.item.ItemListRequest\\x1a\\x16.item.ItemListResponse\\x12;\\n\\x06\\x64\\x65tail\\x12\\x17.item.ItemDetailRequest\\x1a\\x18.item.ItemDetailResponse\\x12;\\n\\x06\\x63reate\\x12\\x17.item.ItemCreateRequest\\x1a\\x18.item.ItemCreateResponse\\x12;\\n\\x06update\\x12\\x17.item.ItemUpdateRequest\\x1a\\x18.item.ItemUpdateResponse\\x12;\\n\\x06\\x64\\x65lete\\x12\\x17.item.ItemDeleteRequest\\x1a\\x18.item.ItemDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'item_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ITEM']._serialized_start=20\n  _globals['_ITEM']._serialized_end=72\n  _globals['_ITEMLISTREQUEST']._serialized_start=74",
+        "detail": "grpc_server.item.item_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "grpc_server.item.item_pb2",
+        "description": "grpc_server.item.item_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\nitem.proto\\x12\\x04item\\\"4\\n\\x04Item\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\x12\\n\\nkategoriId\\x18\\x03 \\x01(\\t\\\"\\x11\\n\\x0fItemListRequest\\\",\\n\\x10ItemListResponse\\x12\\x18\\n\\x04Item\\x18\\x01 \\x03(\\x0b\\x32\\n.item.Item\\\"\\x1f\\n\\x11ItemDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\".\\n\\x12ItemDetailResponse\\x12\\x18\\n\\x04item\\x18\\x01 \\x01(\\x0b\\x32\\n.item.Item\\\"5\\n\\x11ItemCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\x12\\x12\\n\\nkategoriId\\x18\\x02 \\x01(\\t\\\".\\n\\x12ItemCreateResponse\\x12\\x18\\n\\x04item\\x18\\x01 \\x01(\\x0b\\x32\\n.item.Item\\\"-\\n\\x11ItemUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"?\\n\\x12ItemUpdateResponse\\x12\\x18\\n\\x04item\\x18\\x01 \\x01(\\x0b\\x32\\n.item.Item\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"\\x1f\\n\\x11ItemDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"%\\n\\x12ItemDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\xb8\\x02\\n\\x0bItemService\\x12\\x35\\n\\x04list\\x12\\x15.item.ItemListRequest\\x1a\\x16.item.ItemListResponse\\x12;\\n\\x06\\x64\\x65tail\\x12\\x17.item.ItemDetailRequest\\x1a\\x18.item.ItemDetailResponse\\x12;\\n\\x06\\x63reate\\x12\\x17.item.ItemCreateRequest\\x1a\\x18.item.ItemCreateResponse\\x12;\\n\\x06update\\x12\\x17.item.ItemUpdateRequest\\x1a\\x18.item.ItemUpdateResponse\\x12;\\n\\x06\\x64\\x65lete\\x12\\x17.item.ItemDeleteRequest\\x1a\\x18.item.ItemDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'item_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ITEM']._serialized_start=20\n  _globals['_ITEM']._serialized_end=72\n  _globals['_ITEMLISTREQUEST']._serialized_start=74\n  _globals['_ITEMLISTREQUEST']._serialized_end=91",
+        "detail": "grpc_server.item.item_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "grpc_server.item.item_pb2",
+        "description": "grpc_server.item.item_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'item_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ITEM']._serialized_start=20\n  _globals['_ITEM']._serialized_end=72\n  _globals['_ITEMLISTREQUEST']._serialized_start=74\n  _globals['_ITEMLISTREQUEST']._serialized_end=91\n  _globals['_ITEMLISTRESPONSE']._serialized_start=93",
+        "detail": "grpc_server.item.item_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "ItemServiceStub",
+        "kind": 6,
+        "importPath": "grpc_server.item.item_pb2_grpc",
+        "description": "grpc_server.item.item_pb2_grpc",
+        "peekOfCode": "class ItemServiceStub(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def __init__(self, channel):\n        \"\"\"Constructor.\n        Args:\n            channel: A grpc.Channel.\n        \"\"\"\n        self.list = channel.unary_unary(\n                '/item.ItemService/list',\n                request_serializer=item__pb2.ItemListRequest.SerializeToString,",
+        "detail": "grpc_server.item.item_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "ItemServiceServicer",
+        "kind": 6,
+        "importPath": "grpc_server.item.item_pb2_grpc",
+        "description": "grpc_server.item.item_pb2_grpc",
+        "peekOfCode": "class ItemServiceServicer(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def list(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)\n        context.set_details('Method not implemented!')\n        raise NotImplementedError('Method not implemented!')\n    def detail(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)",
+        "detail": "grpc_server.item.item_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "ItemService",
+        "kind": 6,
+        "importPath": "grpc_server.item.item_pb2_grpc",
+        "description": "grpc_server.item.item_pb2_grpc",
+        "peekOfCode": "class ItemService(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    @staticmethod\n    def list(request,\n            target,\n            options=(),\n            channel_credentials=None,\n            call_credentials=None,\n            insecure=False,\n            compression=None,",
+        "detail": "grpc_server.item.item_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "add_ItemServiceServicer_to_server",
+        "kind": 2,
+        "importPath": "grpc_server.item.item_pb2_grpc",
+        "description": "grpc_server.item.item_pb2_grpc",
+        "peekOfCode": "def add_ItemServiceServicer_to_server(servicer, server):\n    rpc_method_handlers = {\n            'list': grpc.unary_unary_rpc_method_handler(\n                    servicer.list,\n                    request_deserializer=item__pb2.ItemListRequest.FromString,\n                    response_serializer=item__pb2.ItemListResponse.SerializeToString,\n            ),\n            'detail': grpc.unary_unary_rpc_method_handler(\n                    servicer.detail,\n                    request_deserializer=item__pb2.ItemDetailRequest.FromString,",
+        "detail": "grpc_server.item.item_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "requires",
+        "kind": 5,
+        "importPath": "grpc_server.item.setup",
+        "description": "grpc_server.item.setup",
+        "peekOfCode": "requires = [\n    \"grpcio\",\n    \"grpcio-tools\",\n    \"alembic\",\n    \"PyMySQL\",\n    \"SQLAlchemy\",\n    \"mysql-connector-python\",\n]\ntests_require = [\n    \"pytest\",",
+        "detail": "grpc_server.item.setup",
+        "documentation": {}
+    },
+    {
+        "label": "tests_require",
+        "kind": 5,
+        "importPath": "grpc_server.item.setup",
+        "description": "grpc_server.item.setup",
+        "peekOfCode": "tests_require = [\n    \"pytest\",\n    \"pytest-cov\",\n]\nsetup(\n    name=\"server\",\n    version=\"0.0\",\n    description=\"server\",\n    classifiers=[\n        \"Programming Language :: Python\",",
+        "detail": "grpc_server.item.setup",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "grpc_server.itemrack.database.config",
+        "description": "grpc_server.itemrack.database.config",
+        "peekOfCode": "engine = create_engine(\"mysql+mysqlconnector://root:@localhost:3306/warehouse\")",
+        "detail": "grpc_server.itemrack.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "grpc_server.itemrack.itemrack_pb2",
+        "description": "grpc_server.itemrack.itemrack_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x0eitemrack.proto\\x12\\x08itemrack\\\"6\\n\\x08ItemRack\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0e\\n\\x06itemId\\x18\\x02 \\x01(\\t\\x12\\x0e\\n\\x06rackId\\x18\\x03 \\x01(\\t\\\"\\x15\\n\\x13ItemRackListRequest\\\"<\\n\\x14ItemRackListResponse\\x12$\\n\\x08ItemRack\\x18\\x01 \\x03(\\x0b\\x32\\x12.itemrack.ItemRack\\\"#\\n\\x15ItemRackDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\">\\n\\x16ItemRackDetailResponse\\x12$\\n\\x08ItemRack\\x18\\x01 \\x01(\\x0b\\x32\\x12.itemrack.ItemRack\\\"7\\n\\x15ItemRackCreateRequest\\x12\\x0e\\n\\x06itemId\\x18\\x01 \\x01(\\t\\x12\\x0e\\n\\x06rackId\\x18\\x02 \\x01(\\t\\\">\\n\\x16ItemRackCreateResponse\\x12$\\n\\x08ItemRack\\x18\\x01 \\x01(\\x0b\\x32\\x12.itemrack.ItemRack\\\"C\\n\\x15ItemRackUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0e\\n\\x06itemId\\x18\\x02 \\x01(\\t\\x12\\x0e\\n\\x06rackId\\x18\\x03 \\x01(\\t\\\">\\n\\x16ItemRackUpdateResponse\\x12$\\n\\x08ItemRack\\x18\\x01 \\x01(\\x0b\\x32\\x12.itemrack.ItemRack\\\"#\\n\\x15ItemRackDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\")\\n\\x16ItemRackDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\x89\\x03\\n\\x0fItemRackService\\x12\\x45\\n\\x04list\\x12\\x1d.itemrack.ItemRackListRequest\\x1a\\x1e.itemrack.ItemRackListResponse\\x12H\\n\\x03get\\x12\\x1f.itemrack.ItemRackDetailRequest\\x1a .itemrack.ItemRackDetailResponse\\x12K\\n\\x06\\x63reate\\x12\\x1f.itemrack.ItemRackCreateRequest\\x1a .itemrack.ItemRackCreateResponse\\x12K\\n\\x06update\\x12\\x1f.itemrack.ItemRackUpdateRequest\\x1a .itemrack.ItemRackUpdateResponse\\x12K\\n\\x06\\x64\\x65lete\\x12\\x1f.itemrack.ItemRackDeleteRequest\\x1a .itemrack.ItemRackDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'itemrack_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ITEMRACK']._serialized_start=28\n  _globals['_ITEMRACK']._serialized_end=82\n  _globals['_ITEMRACKLISTREQUEST']._serialized_start=84",
+        "detail": "grpc_server.itemrack.itemrack_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "grpc_server.itemrack.itemrack_pb2",
+        "description": "grpc_server.itemrack.itemrack_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x0eitemrack.proto\\x12\\x08itemrack\\\"6\\n\\x08ItemRack\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0e\\n\\x06itemId\\x18\\x02 \\x01(\\t\\x12\\x0e\\n\\x06rackId\\x18\\x03 \\x01(\\t\\\"\\x15\\n\\x13ItemRackListRequest\\\"<\\n\\x14ItemRackListResponse\\x12$\\n\\x08ItemRack\\x18\\x01 \\x03(\\x0b\\x32\\x12.itemrack.ItemRack\\\"#\\n\\x15ItemRackDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\">\\n\\x16ItemRackDetailResponse\\x12$\\n\\x08ItemRack\\x18\\x01 \\x01(\\x0b\\x32\\x12.itemrack.ItemRack\\\"7\\n\\x15ItemRackCreateRequest\\x12\\x0e\\n\\x06itemId\\x18\\x01 \\x01(\\t\\x12\\x0e\\n\\x06rackId\\x18\\x02 \\x01(\\t\\\">\\n\\x16ItemRackCreateResponse\\x12$\\n\\x08ItemRack\\x18\\x01 \\x01(\\x0b\\x32\\x12.itemrack.ItemRack\\\"C\\n\\x15ItemRackUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0e\\n\\x06itemId\\x18\\x02 \\x01(\\t\\x12\\x0e\\n\\x06rackId\\x18\\x03 \\x01(\\t\\\">\\n\\x16ItemRackUpdateResponse\\x12$\\n\\x08ItemRack\\x18\\x01 \\x01(\\x0b\\x32\\x12.itemrack.ItemRack\\\"#\\n\\x15ItemRackDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\")\\n\\x16ItemRackDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\x89\\x03\\n\\x0fItemRackService\\x12\\x45\\n\\x04list\\x12\\x1d.itemrack.ItemRackListRequest\\x1a\\x1e.itemrack.ItemRackListResponse\\x12H\\n\\x03get\\x12\\x1f.itemrack.ItemRackDetailRequest\\x1a .itemrack.ItemRackDetailResponse\\x12K\\n\\x06\\x63reate\\x12\\x1f.itemrack.ItemRackCreateRequest\\x1a .itemrack.ItemRackCreateResponse\\x12K\\n\\x06update\\x12\\x1f.itemrack.ItemRackUpdateRequest\\x1a .itemrack.ItemRackUpdateResponse\\x12K\\n\\x06\\x64\\x65lete\\x12\\x1f.itemrack.ItemRackDeleteRequest\\x1a .itemrack.ItemRackDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'itemrack_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ITEMRACK']._serialized_start=28\n  _globals['_ITEMRACK']._serialized_end=82\n  _globals['_ITEMRACKLISTREQUEST']._serialized_start=84\n  _globals['_ITEMRACKLISTREQUEST']._serialized_end=105",
+        "detail": "grpc_server.itemrack.itemrack_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "grpc_server.itemrack.itemrack_pb2",
+        "description": "grpc_server.itemrack.itemrack_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'itemrack_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ITEMRACK']._serialized_start=28\n  _globals['_ITEMRACK']._serialized_end=82\n  _globals['_ITEMRACKLISTREQUEST']._serialized_start=84\n  _globals['_ITEMRACKLISTREQUEST']._serialized_end=105\n  _globals['_ITEMRACKLISTRESPONSE']._serialized_start=107",
+        "detail": "grpc_server.itemrack.itemrack_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "ItemRackServiceStub",
+        "kind": 6,
+        "importPath": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "description": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "peekOfCode": "class ItemRackServiceStub(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def __init__(self, channel):\n        \"\"\"Constructor.\n        Args:\n            channel: A grpc.Channel.\n        \"\"\"\n        self.list = channel.unary_unary(\n                '/itemrack.ItemRackService/list',\n                request_serializer=itemrack__pb2.ItemRackListRequest.SerializeToString,",
+        "detail": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "ItemRackServiceServicer",
+        "kind": 6,
+        "importPath": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "description": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "peekOfCode": "class ItemRackServiceServicer(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def list(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)\n        context.set_details('Method not implemented!')\n        raise NotImplementedError('Method not implemented!')\n    def get(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)",
+        "detail": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "ItemRackService",
+        "kind": 6,
+        "importPath": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "description": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "peekOfCode": "class ItemRackService(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    @staticmethod\n    def list(request,\n            target,\n            options=(),\n            channel_credentials=None,\n            call_credentials=None,\n            insecure=False,\n            compression=None,",
+        "detail": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "add_ItemRackServiceServicer_to_server",
+        "kind": 2,
+        "importPath": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "description": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "peekOfCode": "def add_ItemRackServiceServicer_to_server(servicer, server):\n    rpc_method_handlers = {\n            'list': grpc.unary_unary_rpc_method_handler(\n                    servicer.list,\n                    request_deserializer=itemrack__pb2.ItemRackListRequest.FromString,\n                    response_serializer=itemrack__pb2.ItemRackListResponse.SerializeToString,\n            ),\n            'get': grpc.unary_unary_rpc_method_handler(\n                    servicer.get,\n                    request_deserializer=itemrack__pb2.ItemRackDetailRequest.FromString,",
+        "detail": "grpc_server.itemrack.itemrack_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "requires",
+        "kind": 5,
+        "importPath": "grpc_server.itemrack.setup",
+        "description": "grpc_server.itemrack.setup",
+        "peekOfCode": "requires = [\n    \"grpcio\",\n    \"grpcio-tools\",\n    \"alembic\",\n    \"PyMySQL\",\n    \"SQLAlchemy\",\n    \"mysql-connector-python\",\n]\ntests_require = [\n    \"pytest\",",
+        "detail": "grpc_server.itemrack.setup",
+        "documentation": {}
+    },
+    {
+        "label": "tests_require",
+        "kind": 5,
+        "importPath": "grpc_server.itemrack.setup",
+        "description": "grpc_server.itemrack.setup",
+        "peekOfCode": "tests_require = [\n    \"pytest\",\n    \"pytest-cov\",\n]\nsetup(\n    name=\"server\",\n    version=\"0.0\",\n    description=\"server\",\n    classifiers=[\n        \"Programming Language :: Python\",",
+        "detail": "grpc_server.itemrack.setup",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "grpc_server.kategori.database.config",
+        "description": "grpc_server.kategori.database.config",
+        "peekOfCode": "engine = create_engine(\"mysql+mysqlconnector://root:@localhost:3306/warehouse\")",
+        "detail": "grpc_server.kategori.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "grpc_server.kategori.kategori_pb2",
+        "description": "grpc_server.kategori.kategori_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x0ekategori.proto\\x12\\x08kategori\\\"$\\n\\x08Kategori\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"\\x15\\n\\x13KategoriListRequest\\\"<\\n\\x14KategoriListResponse\\x12$\\n\\x08Kategori\\x18\\x01 \\x03(\\x0b\\x32\\x12.kategori.Kategori\\\"#\\n\\x15KategoriDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\">\\n\\x16KategoriDetailResponse\\x12$\\n\\x08kategori\\x18\\x01 \\x01(\\x0b\\x32\\x12.kategori.Kategori\\\"%\\n\\x15KategoriCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\\">\\n\\x16KategoriCreateResponse\\x12$\\n\\x08kategori\\x18\\x01 \\x01(\\x0b\\x32\\x12.kategori.Kategori\\\"1\\n\\x15KategoriUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"O\\n\\x16KategoriUpdateResponse\\x12$\\n\\x08kategori\\x18\\x01 \\x01(\\x0b\\x32\\x12.kategori.Kategori\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"#\\n\\x15KategoriDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\")\\n\\x16KategoriDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\x89\\x03\\n\\x0fKategoriService\\x12\\x45\\n\\x04list\\x12\\x1d.kategori.KategoriListRequest\\x1a\\x1e.kategori.KategoriListResponse\\x12H\\n\\x03get\\x12\\x1f.kategori.KategoriDetailRequest\\x1a .kategori.KategoriDetailResponse\\x12K\\n\\x06\\x63reate\\x12\\x1f.kategori.KategoriCreateRequest\\x1a .kategori.KategoriCreateResponse\\x12K\\n\\x06update\\x12\\x1f.kategori.KategoriUpdateRequest\\x1a .kategori.KategoriUpdateResponse\\x12K\\n\\x06\\x64\\x65lete\\x12\\x1f.kategori.KategoriDeleteRequest\\x1a .kategori.KategoriDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'kategori_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_KATEGORI']._serialized_start=28\n  _globals['_KATEGORI']._serialized_end=64\n  _globals['_KATEGORILISTREQUEST']._serialized_start=66",
+        "detail": "grpc_server.kategori.kategori_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "grpc_server.kategori.kategori_pb2",
+        "description": "grpc_server.kategori.kategori_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\x0ekategori.proto\\x12\\x08kategori\\\"$\\n\\x08Kategori\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"\\x15\\n\\x13KategoriListRequest\\\"<\\n\\x14KategoriListResponse\\x12$\\n\\x08Kategori\\x18\\x01 \\x03(\\x0b\\x32\\x12.kategori.Kategori\\\"#\\n\\x15KategoriDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\">\\n\\x16KategoriDetailResponse\\x12$\\n\\x08kategori\\x18\\x01 \\x01(\\x0b\\x32\\x12.kategori.Kategori\\\"%\\n\\x15KategoriCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\\">\\n\\x16KategoriCreateResponse\\x12$\\n\\x08kategori\\x18\\x01 \\x01(\\x0b\\x32\\x12.kategori.Kategori\\\"1\\n\\x15KategoriUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"O\\n\\x16KategoriUpdateResponse\\x12$\\n\\x08kategori\\x18\\x01 \\x01(\\x0b\\x32\\x12.kategori.Kategori\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"#\\n\\x15KategoriDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\")\\n\\x16KategoriDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\x89\\x03\\n\\x0fKategoriService\\x12\\x45\\n\\x04list\\x12\\x1d.kategori.KategoriListRequest\\x1a\\x1e.kategori.KategoriListResponse\\x12H\\n\\x03get\\x12\\x1f.kategori.KategoriDetailRequest\\x1a .kategori.KategoriDetailResponse\\x12K\\n\\x06\\x63reate\\x12\\x1f.kategori.KategoriCreateRequest\\x1a .kategori.KategoriCreateResponse\\x12K\\n\\x06update\\x12\\x1f.kategori.KategoriUpdateRequest\\x1a .kategori.KategoriUpdateResponse\\x12K\\n\\x06\\x64\\x65lete\\x12\\x1f.kategori.KategoriDeleteRequest\\x1a .kategori.KategoriDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'kategori_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_KATEGORI']._serialized_start=28\n  _globals['_KATEGORI']._serialized_end=64\n  _globals['_KATEGORILISTREQUEST']._serialized_start=66\n  _globals['_KATEGORILISTREQUEST']._serialized_end=87",
+        "detail": "grpc_server.kategori.kategori_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "grpc_server.kategori.kategori_pb2",
+        "description": "grpc_server.kategori.kategori_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'kategori_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_KATEGORI']._serialized_start=28\n  _globals['_KATEGORI']._serialized_end=64\n  _globals['_KATEGORILISTREQUEST']._serialized_start=66\n  _globals['_KATEGORILISTREQUEST']._serialized_end=87\n  _globals['_KATEGORILISTRESPONSE']._serialized_start=89",
+        "detail": "grpc_server.kategori.kategori_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "KategoriServiceStub",
+        "kind": 6,
+        "importPath": "grpc_server.kategori.kategori_pb2_grpc",
+        "description": "grpc_server.kategori.kategori_pb2_grpc",
+        "peekOfCode": "class KategoriServiceStub(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def __init__(self, channel):\n        \"\"\"Constructor.\n        Args:\n            channel: A grpc.Channel.\n        \"\"\"\n        self.list = channel.unary_unary(\n                '/kategori.KategoriService/list',\n                request_serializer=kategori__pb2.KategoriListRequest.SerializeToString,",
+        "detail": "grpc_server.kategori.kategori_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "KategoriServiceServicer",
+        "kind": 6,
+        "importPath": "grpc_server.kategori.kategori_pb2_grpc",
+        "description": "grpc_server.kategori.kategori_pb2_grpc",
+        "peekOfCode": "class KategoriServiceServicer(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def list(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)\n        context.set_details('Method not implemented!')\n        raise NotImplementedError('Method not implemented!')\n    def get(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)",
+        "detail": "grpc_server.kategori.kategori_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "KategoriService",
+        "kind": 6,
+        "importPath": "grpc_server.kategori.kategori_pb2_grpc",
+        "description": "grpc_server.kategori.kategori_pb2_grpc",
+        "peekOfCode": "class KategoriService(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    @staticmethod\n    def list(request,\n            target,\n            options=(),\n            channel_credentials=None,\n            call_credentials=None,\n            insecure=False,\n            compression=None,",
+        "detail": "grpc_server.kategori.kategori_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "add_KategoriServiceServicer_to_server",
+        "kind": 2,
+        "importPath": "grpc_server.kategori.kategori_pb2_grpc",
+        "description": "grpc_server.kategori.kategori_pb2_grpc",
+        "peekOfCode": "def add_KategoriServiceServicer_to_server(servicer, server):\n    rpc_method_handlers = {\n            'list': grpc.unary_unary_rpc_method_handler(\n                    servicer.list,\n                    request_deserializer=kategori__pb2.KategoriListRequest.FromString,\n                    response_serializer=kategori__pb2.KategoriListResponse.SerializeToString,\n            ),\n            'get': grpc.unary_unary_rpc_method_handler(\n                    servicer.get,\n                    request_deserializer=kategori__pb2.KategoriDetailRequest.FromString,",
+        "detail": "grpc_server.kategori.kategori_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "requires",
+        "kind": 5,
+        "importPath": "grpc_server.kategori.setup",
+        "description": "grpc_server.kategori.setup",
+        "peekOfCode": "requires = [\n    \"grpcio\",\n    \"grpcio-tools\",\n    \"alembic\",\n    \"PyMySQL\",\n    \"SQLAlchemy\",\n    \"mysql-connector-python\",\n]\ntests_require = [\n    \"pytest\",",
+        "detail": "grpc_server.kategori.setup",
+        "documentation": {}
+    },
+    {
+        "label": "tests_require",
+        "kind": 5,
+        "importPath": "grpc_server.kategori.setup",
+        "description": "grpc_server.kategori.setup",
+        "peekOfCode": "tests_require = [\n    \"pytest\",\n    \"pytest-cov\",\n]\nsetup(\n    name=\"server\",\n    version=\"0.0\",\n    description=\"server\",\n    classifiers=[\n        \"Programming Language :: Python\",",
+        "detail": "grpc_server.kategori.setup",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "grpc_server.rack.database.config",
+        "description": "grpc_server.rack.database.config",
+        "peekOfCode": "engine = create_engine(\"mysql+mysqlconnector://root:@localhost:3306/warehouse\")",
+        "detail": "grpc_server.rack.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "grpc_server.rack.rack_pb2",
+        "description": "grpc_server.rack.rack_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\nrack.proto\\x12\\x04rack\\\" \\n\\x04Rack\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"\\x11\\n\\x0fRackListRequest\\\",\\n\\x10RackListResponse\\x12\\x18\\n\\x04Rack\\x18\\x01 \\x03(\\x0b\\x32\\n.rack.Rack\\\"\\x1f\\n\\x11RackDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\".\\n\\x12RackDetailResponse\\x12\\x18\\n\\x04rack\\x18\\x01 \\x01(\\x0b\\x32\\n.rack.Rack\\\"!\\n\\x11RackCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\\".\\n\\x12RackCreateResponse\\x12\\x18\\n\\x04rack\\x18\\x01 \\x01(\\x0b\\x32\\n.rack.Rack\\\"-\\n\\x11RackUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"?\\n\\x12RackUpdateResponse\\x12\\x18\\n\\x04rack\\x18\\x01 \\x01(\\x0b\\x32\\n.rack.Rack\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"\\x1f\\n\\x11RackDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"?\\n\\x12RackDeleteResponse\\x12\\x18\\n\\x04rack\\x18\\x01 \\x01(\\x0b\\x32\\n.rack.Rack\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"!\\n\\x13ItemRackListRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x32\\xb5\\x02\\n\\x0bRackService\\x12\\x35\\n\\x04list\\x12\\x15.rack.RackListRequest\\x1a\\x16.rack.RackListResponse\\x12\\x38\\n\\x03get\\x12\\x17.rack.RackDetailRequest\\x1a\\x18.rack.RackDetailResponse\\x12;\\n\\x06\\x63reate\\x12\\x17.rack.RackCreateRequest\\x1a\\x18.rack.RackCreateResponse\\x12;\\n\\x06update\\x12\\x17.rack.RackUpdateRequest\\x1a\\x18.rack.RackUpdateResponse\\x12;\\n\\x06\\x64\\x65lete\\x12\\x17.rack.RackDeleteRequest\\x1a\\x18.rack.RackDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'rack_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_RACK']._serialized_start=20\n  _globals['_RACK']._serialized_end=52\n  _globals['_RACKLISTREQUEST']._serialized_start=54",
+        "detail": "grpc_server.rack.rack_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "grpc_server.rack.rack_pb2",
+        "description": "grpc_server.rack.rack_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\nrack.proto\\x12\\x04rack\\\" \\n\\x04Rack\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"\\x11\\n\\x0fRackListRequest\\\",\\n\\x10RackListResponse\\x12\\x18\\n\\x04Rack\\x18\\x01 \\x03(\\x0b\\x32\\n.rack.Rack\\\"\\x1f\\n\\x11RackDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\".\\n\\x12RackDetailResponse\\x12\\x18\\n\\x04rack\\x18\\x01 \\x01(\\x0b\\x32\\n.rack.Rack\\\"!\\n\\x11RackCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\\".\\n\\x12RackCreateResponse\\x12\\x18\\n\\x04rack\\x18\\x01 \\x01(\\x0b\\x32\\n.rack.Rack\\\"-\\n\\x11RackUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"?\\n\\x12RackUpdateResponse\\x12\\x18\\n\\x04rack\\x18\\x01 \\x01(\\x0b\\x32\\n.rack.Rack\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"\\x1f\\n\\x11RackDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"?\\n\\x12RackDeleteResponse\\x12\\x18\\n\\x04rack\\x18\\x01 \\x01(\\x0b\\x32\\n.rack.Rack\\x12\\x0f\\n\\x07message\\x18\\x02 \\x01(\\t\\\"!\\n\\x13ItemRackListRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x32\\xb5\\x02\\n\\x0bRackService\\x12\\x35\\n\\x04list\\x12\\x15.rack.RackListRequest\\x1a\\x16.rack.RackListResponse\\x12\\x38\\n\\x03get\\x12\\x17.rack.RackDetailRequest\\x1a\\x18.rack.RackDetailResponse\\x12;\\n\\x06\\x63reate\\x12\\x17.rack.RackCreateRequest\\x1a\\x18.rack.RackCreateResponse\\x12;\\n\\x06update\\x12\\x17.rack.RackUpdateRequest\\x1a\\x18.rack.RackUpdateResponse\\x12;\\n\\x06\\x64\\x65lete\\x12\\x17.rack.RackDeleteRequest\\x1a\\x18.rack.RackDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'rack_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_RACK']._serialized_start=20\n  _globals['_RACK']._serialized_end=52\n  _globals['_RACKLISTREQUEST']._serialized_start=54\n  _globals['_RACKLISTREQUEST']._serialized_end=71",
+        "detail": "grpc_server.rack.rack_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "grpc_server.rack.rack_pb2",
+        "description": "grpc_server.rack.rack_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'rack_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_RACK']._serialized_start=20\n  _globals['_RACK']._serialized_end=52\n  _globals['_RACKLISTREQUEST']._serialized_start=54\n  _globals['_RACKLISTREQUEST']._serialized_end=71\n  _globals['_RACKLISTRESPONSE']._serialized_start=73",
+        "detail": "grpc_server.rack.rack_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "RackServiceStub",
+        "kind": 6,
+        "importPath": "grpc_server.rack.rack_pb2_grpc",
+        "description": "grpc_server.rack.rack_pb2_grpc",
+        "peekOfCode": "class RackServiceStub(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def __init__(self, channel):\n        \"\"\"Constructor.\n        Args:\n            channel: A grpc.Channel.\n        \"\"\"\n        self.list = channel.unary_unary(\n                '/rack.RackService/list',\n                request_serializer=rack__pb2.RackListRequest.SerializeToString,",
+        "detail": "grpc_server.rack.rack_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "RackServiceServicer",
+        "kind": 6,
+        "importPath": "grpc_server.rack.rack_pb2_grpc",
+        "description": "grpc_server.rack.rack_pb2_grpc",
+        "peekOfCode": "class RackServiceServicer(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def list(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)\n        context.set_details('Method not implemented!')\n        raise NotImplementedError('Method not implemented!')\n    def get(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)",
+        "detail": "grpc_server.rack.rack_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "RackService",
+        "kind": 6,
+        "importPath": "grpc_server.rack.rack_pb2_grpc",
+        "description": "grpc_server.rack.rack_pb2_grpc",
+        "peekOfCode": "class RackService(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    @staticmethod\n    def list(request,\n            target,\n            options=(),\n            channel_credentials=None,\n            call_credentials=None,\n            insecure=False,\n            compression=None,",
+        "detail": "grpc_server.rack.rack_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "add_RackServiceServicer_to_server",
+        "kind": 2,
+        "importPath": "grpc_server.rack.rack_pb2_grpc",
+        "description": "grpc_server.rack.rack_pb2_grpc",
+        "peekOfCode": "def add_RackServiceServicer_to_server(servicer, server):\n    rpc_method_handlers = {\n            'list': grpc.unary_unary_rpc_method_handler(\n                    servicer.list,\n                    request_deserializer=rack__pb2.RackListRequest.FromString,\n                    response_serializer=rack__pb2.RackListResponse.SerializeToString,\n            ),\n            'get': grpc.unary_unary_rpc_method_handler(\n                    servicer.get,\n                    request_deserializer=rack__pb2.RackDetailRequest.FromString,",
+        "detail": "grpc_server.rack.rack_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "requires",
+        "kind": 5,
+        "importPath": "grpc_server.rack.setup",
+        "description": "grpc_server.rack.setup",
+        "peekOfCode": "requires = [\n    \"grpcio\",\n    \"grpcio-tools\",\n    \"alembic\",\n    \"PyMySQL\",\n    \"SQLAlchemy\",\n    \"mysql-connector-python\",\n]\ntests_require = [\n    \"pytest\",",
+        "detail": "grpc_server.rack.setup",
+        "documentation": {}
+    },
+    {
+        "label": "tests_require",
+        "kind": 5,
+        "importPath": "grpc_server.rack.setup",
+        "description": "grpc_server.rack.setup",
+        "peekOfCode": "tests_require = [\n    \"pytest\",\n    \"pytest-cov\",\n]\nsetup(\n    name=\"server\",\n    version=\"0.0\",\n    description=\"server\",\n    classifiers=[\n        \"Programming Language :: Python\",",
+        "detail": "grpc_server.rack.setup",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "grpc_server.role.database.config",
+        "description": "grpc_server.role.database.config",
+        "peekOfCode": "engine = create_engine(\"mysql+mysqlconnector://root:@localhost:3306/warehouse\")",
+        "detail": "grpc_server.role.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "grpc_server.role.role_pb2",
+        "description": "grpc_server.role.role_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\nrole.proto\\x12\\x04role\\\" \\n\\x04Role\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"\\x11\\n\\x0fRoleListRequest\\\",\\n\\x10RoleListResponse\\x12\\x18\\n\\x04role\\x18\\x01 \\x03(\\x0b\\x32\\n.role.Role\\\"\\x1f\\n\\x11RoleDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\".\\n\\x12RoleDetailResponse\\x12\\x18\\n\\x04role\\x18\\x01 \\x01(\\x0b\\x32\\n.role.Role\\\"!\\n\\x11RoleCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\\".\\n\\x12RoleCreateResponse\\x12\\x18\\n\\x04role\\x18\\x01 \\x01(\\x0b\\x32\\n.role.Role\\\"-\\n\\x11RoleUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\".\\n\\x12RoleUpdateResponse\\x12\\x18\\n\\x04role\\x18\\x01 \\x01(\\x0b\\x32\\n.role.Role\\\"\\x1f\\n\\x11RoleDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"%\\n\\x12RoleDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\xb5\\x02\\n\\x0bRoleService\\x12\\x35\\n\\x04list\\x12\\x15.role.RoleListRequest\\x1a\\x16.role.RoleListResponse\\x12\\x38\\n\\x03get\\x12\\x17.role.RoleDetailRequest\\x1a\\x18.role.RoleDetailResponse\\x12;\\n\\x06\\x63reate\\x12\\x17.role.RoleCreateRequest\\x1a\\x18.role.RoleCreateResponse\\x12;\\n\\x06update\\x12\\x17.role.RoleUpdateRequest\\x1a\\x18.role.RoleUpdateResponse\\x12;\\n\\x06\\x64\\x65lete\\x12\\x17.role.RoleDeleteRequest\\x1a\\x18.role.RoleDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'role_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ROLE']._serialized_start=20\n  _globals['_ROLE']._serialized_end=52\n  _globals['_ROLELISTREQUEST']._serialized_start=54",
+        "detail": "grpc_server.role.role_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "grpc_server.role.role_pb2",
+        "description": "grpc_server.role.role_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\nrole.proto\\x12\\x04role\\\" \\n\\x04Role\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\"\\x11\\n\\x0fRoleListRequest\\\",\\n\\x10RoleListResponse\\x12\\x18\\n\\x04role\\x18\\x01 \\x03(\\x0b\\x32\\n.role.Role\\\"\\x1f\\n\\x11RoleDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\".\\n\\x12RoleDetailResponse\\x12\\x18\\n\\x04role\\x18\\x01 \\x01(\\x0b\\x32\\n.role.Role\\\"!\\n\\x11RoleCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\\".\\n\\x12RoleCreateResponse\\x12\\x18\\n\\x04role\\x18\\x01 \\x01(\\x0b\\x32\\n.role.Role\\\"-\\n\\x11RoleUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\\".\\n\\x12RoleUpdateResponse\\x12\\x18\\n\\x04role\\x18\\x01 \\x01(\\x0b\\x32\\n.role.Role\\\"\\x1f\\n\\x11RoleDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"%\\n\\x12RoleDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\xb5\\x02\\n\\x0bRoleService\\x12\\x35\\n\\x04list\\x12\\x15.role.RoleListRequest\\x1a\\x16.role.RoleListResponse\\x12\\x38\\n\\x03get\\x12\\x17.role.RoleDetailRequest\\x1a\\x18.role.RoleDetailResponse\\x12;\\n\\x06\\x63reate\\x12\\x17.role.RoleCreateRequest\\x1a\\x18.role.RoleCreateResponse\\x12;\\n\\x06update\\x12\\x17.role.RoleUpdateRequest\\x1a\\x18.role.RoleUpdateResponse\\x12;\\n\\x06\\x64\\x65lete\\x12\\x17.role.RoleDeleteRequest\\x1a\\x18.role.RoleDeleteResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'role_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ROLE']._serialized_start=20\n  _globals['_ROLE']._serialized_end=52\n  _globals['_ROLELISTREQUEST']._serialized_start=54\n  _globals['_ROLELISTREQUEST']._serialized_end=71",
+        "detail": "grpc_server.role.role_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "grpc_server.role.role_pb2",
+        "description": "grpc_server.role.role_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'role_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_ROLE']._serialized_start=20\n  _globals['_ROLE']._serialized_end=52\n  _globals['_ROLELISTREQUEST']._serialized_start=54\n  _globals['_ROLELISTREQUEST']._serialized_end=71\n  _globals['_ROLELISTRESPONSE']._serialized_start=73",
+        "detail": "grpc_server.role.role_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "RoleServiceStub",
+        "kind": 6,
+        "importPath": "grpc_server.role.role_pb2_grpc",
+        "description": "grpc_server.role.role_pb2_grpc",
+        "peekOfCode": "class RoleServiceStub(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def __init__(self, channel):\n        \"\"\"Constructor.\n        Args:\n            channel: A grpc.Channel.\n        \"\"\"\n        self.list = channel.unary_unary(\n                '/role.RoleService/list',\n                request_serializer=role__pb2.RoleListRequest.SerializeToString,",
+        "detail": "grpc_server.role.role_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "RoleServiceServicer",
+        "kind": 6,
+        "importPath": "grpc_server.role.role_pb2_grpc",
+        "description": "grpc_server.role.role_pb2_grpc",
+        "peekOfCode": "class RoleServiceServicer(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def list(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)\n        context.set_details('Method not implemented!')\n        raise NotImplementedError('Method not implemented!')\n    def get(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)",
+        "detail": "grpc_server.role.role_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "RoleService",
+        "kind": 6,
+        "importPath": "grpc_server.role.role_pb2_grpc",
+        "description": "grpc_server.role.role_pb2_grpc",
+        "peekOfCode": "class RoleService(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    @staticmethod\n    def list(request,\n            target,\n            options=(),\n            channel_credentials=None,\n            call_credentials=None,\n            insecure=False,\n            compression=None,",
+        "detail": "grpc_server.role.role_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "add_RoleServiceServicer_to_server",
+        "kind": 2,
+        "importPath": "grpc_server.role.role_pb2_grpc",
+        "description": "grpc_server.role.role_pb2_grpc",
+        "peekOfCode": "def add_RoleServiceServicer_to_server(servicer, server):\n    rpc_method_handlers = {\n            'list': grpc.unary_unary_rpc_method_handler(\n                    servicer.list,\n                    request_deserializer=role__pb2.RoleListRequest.FromString,\n                    response_serializer=role__pb2.RoleListResponse.SerializeToString,\n            ),\n            'get': grpc.unary_unary_rpc_method_handler(\n                    servicer.get,\n                    request_deserializer=role__pb2.RoleDetailRequest.FromString,",
+        "detail": "grpc_server.role.role_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "requires",
+        "kind": 5,
+        "importPath": "grpc_server.role.setup",
+        "description": "grpc_server.role.setup",
+        "peekOfCode": "requires = [\n    \"grpcio\",\n    \"grpcio-tools\",\n    \"alembic\",\n    \"PyMySQL\",\n    \"SQLAlchemy\",\n    \"mysql-connector-python\",\n]\ntests_require = [\n    \"pytest\",",
+        "detail": "grpc_server.role.setup",
+        "documentation": {}
+    },
+    {
+        "label": "tests_require",
+        "kind": 5,
+        "importPath": "grpc_server.role.setup",
+        "description": "grpc_server.role.setup",
+        "peekOfCode": "tests_require = [\n    \"pytest\",\n    \"pytest-cov\",\n]\nsetup(\n    name=\"server\",\n    version=\"0.0\",\n    description=\"server\",\n    classifiers=[\n        \"Programming Language :: Python\",",
+        "detail": "grpc_server.role.setup",
+        "documentation": {}
+    },
+    {
+        "label": "engine",
+        "kind": 5,
+        "importPath": "grpc_server.user.database.config",
+        "description": "grpc_server.user.database.config",
+        "peekOfCode": "engine = create_engine(\"mysql+mysqlconnector://root:@localhost:3306/warehouse\")",
+        "detail": "grpc_server.user.database.config",
+        "documentation": {}
+    },
+    {
+        "label": "requires",
+        "kind": 5,
+        "importPath": "grpc_server.user.setup",
+        "description": "grpc_server.user.setup",
+        "peekOfCode": "requires = [\n    \"grpcio\",\n    \"grpcio-tools\",\n    \"pyjwt\",\n    \"PyMySQL\",\n    \"SQLAlchemy\",\n    \"mysql-connector-python\",\n]\ntests_require = [\n    \"pytest\",",
+        "detail": "grpc_server.user.setup",
+        "documentation": {}
+    },
+    {
+        "label": "tests_require",
+        "kind": 5,
+        "importPath": "grpc_server.user.setup",
+        "description": "grpc_server.user.setup",
+        "peekOfCode": "tests_require = [\n    \"pytest\",\n    \"pytest-cov\",\n]\nsetup(\n    name=\"server\",\n    version=\"0.0\",\n    description=\"server\",\n    classifiers=[\n        \"Programming Language :: Python\",",
+        "detail": "grpc_server.user.setup",
+        "documentation": {}
+    },
+    {
+        "label": "_sym_db",
+        "kind": 5,
+        "importPath": "grpc_server.user.user_pb2",
+        "description": "grpc_server.user.user_pb2",
+        "peekOfCode": "_sym_db = _symbol_database.Default()\nDESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\nuser.proto\\x12\\x04user\\\"R\\n\\x04User\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x03 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x04 \\x01(\\t\\x12\\x0f\\n\\x07role_id\\x18\\x05 \\x01(\\x05\\\"\\x11\\n\\x0fUserListRequest\\\",\\n\\x10UserListResponse\\x12\\x18\\n\\x04user\\x18\\x01 \\x03(\\x0b\\x32\\n.user.User\\\"\\x1f\\n\\x11UserDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\".\\n\\x12UserDetailResponse\\x12\\x18\\n\\x04user\\x18\\x01 \\x01(\\x0b\\x32\\n.user.User\\\"S\\n\\x11UserCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x02 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x03 \\x01(\\t\\x12\\x0f\\n\\x07role_id\\x18\\x04 \\x01(\\x05\\\".\\n\\x12UserCreateResponse\\x12\\x18\\n\\x04user\\x18\\x01 \\x01(\\x0b\\x32\\n.user.User\\\"_\\n\\x11UserUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x03 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x04 \\x01(\\t\\x12\\x0f\\n\\x07role_id\\x18\\x05 \\x01(\\x05\\\".\\n\\x12UserUpdateResponse\\x12\\x18\\n\\x04user\\x18\\x01 \\x01(\\x0b\\x32\\n.user.User\\\"\\x1f\\n\\x11UserDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"%\\n\\x12UserDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t\\\"3\\n\\x10UserLoginRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x02 \\x01(\\t\\\"\\\"\\n\\x11UserLoginResponse\\x12\\r\\n\\x05token\\x18\\x01 \\x01(\\t\\\"\\\"\\n\\x11UserLogoutRequest\\x12\\r\\n\\x05token\\x18\\x01 \\x01(\\t\\\"%\\n\\x12UserLogoutResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\xac\\x03\\n\\x0bUserService\\x12\\x35\\n\\x04list\\x12\\x15.user.UserListRequest\\x1a\\x16.user.UserListResponse\\x12\\x38\\n\\x03get\\x12\\x17.user.UserDetailRequest\\x1a\\x18.user.UserDetailResponse\\x12;\\n\\x06\\x63reate\\x12\\x17.user.UserCreateRequest\\x1a\\x18.user.UserCreateResponse\\x12;\\n\\x06update\\x12\\x17.user.UserUpdateRequest\\x1a\\x18.user.UserUpdateResponse\\x12;\\n\\x06\\x64\\x65lete\\x12\\x17.user.UserDeleteRequest\\x1a\\x18.user.UserDeleteResponse\\x12\\x38\\n\\x05login\\x12\\x16.user.UserLoginRequest\\x1a\\x17.user.UserLoginResponse\\x12;\\n\\x06logout\\x12\\x17.user.UserLogoutRequest\\x1a\\x18.user.UserLogoutResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'user_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_USER']._serialized_start=20\n  _globals['_USER']._serialized_end=102\n  _globals['_USERLISTREQUEST']._serialized_start=104",
+        "detail": "grpc_server.user.user_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "DESCRIPTOR",
+        "kind": 5,
+        "importPath": "grpc_server.user.user_pb2",
+        "description": "grpc_server.user.user_pb2",
+        "peekOfCode": "DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\\n\\nuser.proto\\x12\\x04user\\\"R\\n\\x04User\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x03 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x04 \\x01(\\t\\x12\\x0f\\n\\x07role_id\\x18\\x05 \\x01(\\x05\\\"\\x11\\n\\x0fUserListRequest\\\",\\n\\x10UserListResponse\\x12\\x18\\n\\x04user\\x18\\x01 \\x03(\\x0b\\x32\\n.user.User\\\"\\x1f\\n\\x11UserDetailRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\".\\n\\x12UserDetailResponse\\x12\\x18\\n\\x04user\\x18\\x01 \\x01(\\x0b\\x32\\n.user.User\\\"S\\n\\x11UserCreateRequest\\x12\\x0c\\n\\x04name\\x18\\x01 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x02 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x03 \\x01(\\t\\x12\\x0f\\n\\x07role_id\\x18\\x04 \\x01(\\x05\\\".\\n\\x12UserCreateResponse\\x12\\x18\\n\\x04user\\x18\\x01 \\x01(\\x0b\\x32\\n.user.User\\\"_\\n\\x11UserUpdateRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\x12\\x0c\\n\\x04name\\x18\\x02 \\x01(\\t\\x12\\r\\n\\x05\\x65mail\\x18\\x03 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x04 \\x01(\\t\\x12\\x0f\\n\\x07role_id\\x18\\x05 \\x01(\\x05\\\".\\n\\x12UserUpdateResponse\\x12\\x18\\n\\x04user\\x18\\x01 \\x01(\\x0b\\x32\\n.user.User\\\"\\x1f\\n\\x11UserDeleteRequest\\x12\\n\\n\\x02id\\x18\\x01 \\x01(\\x05\\\"%\\n\\x12UserDeleteResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t\\\"3\\n\\x10UserLoginRequest\\x12\\r\\n\\x05\\x65mail\\x18\\x01 \\x01(\\t\\x12\\x10\\n\\x08password\\x18\\x02 \\x01(\\t\\\"\\\"\\n\\x11UserLoginResponse\\x12\\r\\n\\x05token\\x18\\x01 \\x01(\\t\\\"\\\"\\n\\x11UserLogoutRequest\\x12\\r\\n\\x05token\\x18\\x01 \\x01(\\t\\\"%\\n\\x12UserLogoutResponse\\x12\\x0f\\n\\x07message\\x18\\x01 \\x01(\\t2\\xac\\x03\\n\\x0bUserService\\x12\\x35\\n\\x04list\\x12\\x15.user.UserListRequest\\x1a\\x16.user.UserListResponse\\x12\\x38\\n\\x03get\\x12\\x17.user.UserDetailRequest\\x1a\\x18.user.UserDetailResponse\\x12;\\n\\x06\\x63reate\\x12\\x17.user.UserCreateRequest\\x1a\\x18.user.UserCreateResponse\\x12;\\n\\x06update\\x12\\x17.user.UserUpdateRequest\\x1a\\x18.user.UserUpdateResponse\\x12;\\n\\x06\\x64\\x65lete\\x12\\x17.user.UserDeleteRequest\\x1a\\x18.user.UserDeleteResponse\\x12\\x38\\n\\x05login\\x12\\x16.user.UserLoginRequest\\x1a\\x17.user.UserLoginResponse\\x12;\\n\\x06logout\\x12\\x17.user.UserLogoutRequest\\x1a\\x18.user.UserLogoutResponseb\\x06proto3')\n_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'user_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_USER']._serialized_start=20\n  _globals['_USER']._serialized_end=102\n  _globals['_USERLISTREQUEST']._serialized_start=104\n  _globals['_USERLISTREQUEST']._serialized_end=121",
+        "detail": "grpc_server.user.user_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "_globals",
+        "kind": 5,
+        "importPath": "grpc_server.user.user_pb2",
+        "description": "grpc_server.user.user_pb2",
+        "peekOfCode": "_globals = globals()\n_builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)\n_builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'user_pb2', _globals)\nif _descriptor._USE_C_DESCRIPTORS == False:\n  DESCRIPTOR._options = None\n  _globals['_USER']._serialized_start=20\n  _globals['_USER']._serialized_end=102\n  _globals['_USERLISTREQUEST']._serialized_start=104\n  _globals['_USERLISTREQUEST']._serialized_end=121\n  _globals['_USERLISTRESPONSE']._serialized_start=123",
+        "detail": "grpc_server.user.user_pb2",
+        "documentation": {}
+    },
+    {
+        "label": "UserServiceStub",
+        "kind": 6,
+        "importPath": "grpc_server.user.user_pb2_grpc",
+        "description": "grpc_server.user.user_pb2_grpc",
+        "peekOfCode": "class UserServiceStub(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def __init__(self, channel):\n        \"\"\"Constructor.\n        Args:\n            channel: A grpc.Channel.\n        \"\"\"\n        self.list = channel.unary_unary(\n                '/user.UserService/list',\n                request_serializer=user__pb2.UserListRequest.SerializeToString,",
+        "detail": "grpc_server.user.user_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "UserServiceServicer",
+        "kind": 6,
+        "importPath": "grpc_server.user.user_pb2_grpc",
+        "description": "grpc_server.user.user_pb2_grpc",
+        "peekOfCode": "class UserServiceServicer(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    def list(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)\n        context.set_details('Method not implemented!')\n        raise NotImplementedError('Method not implemented!')\n    def get(self, request, context):\n        \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n        context.set_code(grpc.StatusCode.UNIMPLEMENTED)",
+        "detail": "grpc_server.user.user_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "UserService",
+        "kind": 6,
+        "importPath": "grpc_server.user.user_pb2_grpc",
+        "description": "grpc_server.user.user_pb2_grpc",
+        "peekOfCode": "class UserService(object):\n    \"\"\"Missing associated documentation comment in .proto file.\"\"\"\n    @staticmethod\n    def list(request,\n            target,\n            options=(),\n            channel_credentials=None,\n            call_credentials=None,\n            insecure=False,\n            compression=None,",
+        "detail": "grpc_server.user.user_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "add_UserServiceServicer_to_server",
+        "kind": 2,
+        "importPath": "grpc_server.user.user_pb2_grpc",
+        "description": "grpc_server.user.user_pb2_grpc",
+        "peekOfCode": "def add_UserServiceServicer_to_server(servicer, server):\n    rpc_method_handlers = {\n            'list': grpc.unary_unary_rpc_method_handler(\n                    servicer.list,\n                    request_deserializer=user__pb2.UserListRequest.FromString,\n                    response_serializer=user__pb2.UserListResponse.SerializeToString,\n            ),\n            'get': grpc.unary_unary_rpc_method_handler(\n                    servicer.get,\n                    request_deserializer=user__pb2.UserDetailRequest.FromString,",
+        "detail": "grpc_server.user.user_pb2_grpc",
+        "documentation": {}
+    },
+    {
+        "label": "requires",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "requires = [\n    \"grpcio\",\n    \"grpcio-tools\",\n    \"alembic\",\n    \"PyMySQL\",\n    \"SQLAlchemy\",\n    \"mysql-connector-python\",\n]\ntests_require = [\n    \"pytest\",",
+        "detail": "setup",
+        "documentation": {}
+    },
+    {
+        "label": "tests_require",
+        "kind": 5,
+        "importPath": "setup",
+        "description": "setup",
+        "peekOfCode": "tests_require = [\n    \"pytest\",\n    \"pytest-cov\",\n]\nsetup(\n    name=\"server\",\n    version=\"0.0\",\n    description=\"server\",\n    classifiers=[\n        \"Programming Language :: Python\",",
+        "detail": "setup",
+        "documentation": {}
+    }
+]

@@ -80,7 +80,7 @@ message AdminOtpResponse {
     string otp = 1;
     string email = 2;   
     string message = 3;
-    string id = 4;
+    int32 id = 4;
 }
 
 message AdminVerifyOtpRequest {

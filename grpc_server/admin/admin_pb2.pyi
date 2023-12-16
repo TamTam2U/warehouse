@@ -128,8 +128,8 @@ class AdminOtpResponse(_message.Message):
     otp: str
     email: str
     message: str
-    id: str
-    def __init__(self, otp: _Optional[str] = ..., email: _Optional[str] = ..., message: _Optional[str] = ..., id: _Optional[str] = ...) -> None: ...
+    id: int
+    def __init__(self, otp: _Optional[str] = ..., email: _Optional[str] = ..., message: _Optional[str] = ..., id: _Optional[int] = ...) -> None: ...
 
 class AdminVerifyOtpRequest(_message.Message):
     __slots__ = ("email", "otp")

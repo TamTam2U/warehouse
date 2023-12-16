@@ -6,18 +6,18 @@ from typing import ClassVar as _ClassVar, Iterable as _Iterable, Mapping as _Map
 DESCRIPTOR: _descriptor.FileDescriptor
 
 class BarangKeluar(_message.Message):
-    __slots__ = ("id", "name", "tanggalKeluar", "supplierId", "qty")
+    __slots__ = ("id", "item", "tanggalKeluar", "supplierID", "qty")
     ID_FIELD_NUMBER: _ClassVar[int]
-    NAME_FIELD_NUMBER: _ClassVar[int]
+    ITEM_FIELD_NUMBER: _ClassVar[int]
     TANGGALKELUAR_FIELD_NUMBER: _ClassVar[int]
     SUPPLIERID_FIELD_NUMBER: _ClassVar[int]
     QTY_FIELD_NUMBER: _ClassVar[int]
     id: int
-    name: str
+    item: str
     tanggalKeluar: str
-    supplierId: str
+    supplierID: str
     qty: int
-    def __init__(self, id: _Optional[int] = ..., name: _Optional[str] = ..., tanggalKeluar: _Optional[str] = ..., supplierId: _Optional[str] = ..., qty: _Optional[int] = ...) -> None: ...
+    def __init__(self, id: _Optional[int] = ..., item: _Optional[str] = ..., tanggalKeluar: _Optional[str] = ..., supplierID: _Optional[str] = ..., qty: _Optional[int] = ...) -> None: ...
 
 class BarangKeluarListRequest(_message.Message):
     __slots__ = ()
@@ -42,16 +42,16 @@ class BarangKeluarDetailResponse(_message.Message):
     def __init__(self, barangkeluar: _Optional[_Union[BarangKeluar, _Mapping]] = ...) -> None: ...
 
 class BarangKeluarCreateRequest(_message.Message):
-    __slots__ = ("name", "tanggalKeluar", "supplierId", "qty")
-    NAME_FIELD_NUMBER: _ClassVar[int]
+    __slots__ = ("item", "tanggalKeluar", "supplierID", "qty")
+    ITEM_FIELD_NUMBER: _ClassVar[int]
     TANGGALKELUAR_FIELD_NUMBER: _ClassVar[int]
     SUPPLIERID_FIELD_NUMBER: _ClassVar[int]
     QTY_FIELD_NUMBER: _ClassVar[int]
-    name: str
+    item: str
     tanggalKeluar: str
-    supplierId: str
+    supplierID: str
     qty: int
-    def __init__(self, name: _Optional[str] = ..., tanggalKeluar: _Optional[str] = ..., supplierId: _Optional[str] = ..., qty: _Optional[int] = ...) -> None: ...
+    def __init__(self, item: _Optional[str] = ..., tanggalKeluar: _Optional[str] = ..., supplierID: _Optional[str] = ..., qty: _Optional[int] = ...) -> None: ...
 
 class BarangKeluarCreateResponse(_message.Message):
     __slots__ = ("barangkeluar",)
@@ -60,18 +60,18 @@ class BarangKeluarCreateResponse(_message.Message):
     def __init__(self, barangkeluar: _Optional[_Union[BarangKeluar, _Mapping]] = ...) -> None: ...
 
 class BarangKeluarUpdateRequest(_message.Message):
-    __slots__ = ("id", "name", "tanggalKeluar", "supplierId", "qty")
+    __slots__ = ("id", "item", "tanggalKeluar", "supplierID", "qty")
     ID_FIELD_NUMBER: _ClassVar[int]
-    NAME_FIELD_NUMBER: _ClassVar[int]
+    ITEM_FIELD_NUMBER: _ClassVar[int]
     TANGGALKELUAR_FIELD_NUMBER: _ClassVar[int]
     SUPPLIERID_FIELD_NUMBER: _ClassVar[int]
     QTY_FIELD_NUMBER: _ClassVar[int]
     id: int
-    name: str
+    item: str
     tanggalKeluar: str
-    supplierId: str
+    supplierID: str
     qty: int
-    def __init__(self, id: _Optional[int] = ..., name: _Optional[str] = ..., tanggalKeluar: _Optional[str] = ..., supplierId: _Optional[str] = ..., qty: _Optional[int] = ...) -> None: ...
+    def __init__(self, id: _Optional[int] = ..., item: _Optional[str] = ..., tanggalKeluar: _Optional[str] = ..., supplierID: _Optional[str] = ..., qty: _Optional[int] = ...) -> None: ...
 
 class BarangKeluarUpdateResponse(_message.Message):
     __slots__ = ("barangkeluar", "message")

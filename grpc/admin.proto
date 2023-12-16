@@ -38,6 +38,7 @@ message AdminCreateResponse {
 message AdminUpdateRequest {
     int32 id = 1;
     string password = 2;
+    string email = 3;
 }
 
 message AdminUpdateResponse {
@@ -60,7 +61,7 @@ message AdminLoginRequest {
 message AdminLoginResponse {
     string token= 1;
     string email= 2;
-    string id= 3;
+    int32 id= 3;
 }
 
 message AdminLogoutRequest {

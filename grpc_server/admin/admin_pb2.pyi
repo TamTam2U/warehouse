@@ -56,12 +56,14 @@ class AdminCreateResponse(_message.Message):
     def __init__(self, admin: _Optional[_Union[Admin, _Mapping]] = ...) -> None: ...
 
 class AdminUpdateRequest(_message.Message):
-    __slots__ = ("id", "password")
+    __slots__ = ("id", "password", "email")
     ID_FIELD_NUMBER: _ClassVar[int]
     PASSWORD_FIELD_NUMBER: _ClassVar[int]
+    EMAIL_FIELD_NUMBER: _ClassVar[int]
     id: int
     password: str
-    def __init__(self, id: _Optional[int] = ..., password: _Optional[str] = ...) -> None: ...
+    email: str
+    def __init__(self, id: _Optional[int] = ..., password: _Optional[str] = ..., email: _Optional[str] = ...) -> None: ...
 
 class AdminUpdateResponse(_message.Message):
     __slots__ = ("admin",)
@@ -96,8 +98,8 @@ class AdminLoginResponse(_message.Message):
     ID_FIELD_NUMBER: _ClassVar[int]
     token: str
     email: str
-    id: str
-    def __init__(self, token: _Optional[str] = ..., email: _Optional[str] = ..., id: _Optional[str] = ...) -> None: ...
+    id: int
+    def __init__(self, token: _Optional[str] = ..., email: _Optional[str] = ..., id: _Optional[int] = ...) -> None: ...
 
 class AdminLogoutRequest(_message.Message):
     __slots__ = ("token",)

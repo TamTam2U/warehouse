@@ -32,3 +32,63 @@ class ItemController:
                 status=e.code(),
                 json_body={"message": e.details()},
             )
+
+    @view_config(request_method="POST")
+    def create(self):
+        try:
+            if (
+                "name" not in self.request.json_body
+                or "kategoriId" not in self.request.json_body
+            ):
+                return Response(
+                    status=400,
+                    json_body={"message": "Missing name or kategori"},
+                )
+                
+            client = ItemClient()
+            result = client.create_item(
+                self.request.json_body["name"], self.request.json_body["kategoriId"]
+            )
+            
+            if result == None:
+                return Response(
+                    status=400,
+                    json_body={"message": "Failed to create item"},
+                )
+
+            return result
+        except grpc.RpcError as e:
+            return Response(
+                status=e.code(),
+                json_body={"message": e.details()},
+            )
+    
+    @view_config(request_method="PUT")
+    def update(self):
+        try:
+            if (
+                "id" not in self.request.json_body
+                or "name" not in self.request.json_body
+            ):
+                return Response(
+                    status=400,
+                    json_body={"message": "Missing id or name"},
+                )
+                
+            client = ItemClient()
+            result = client.update_item(
+                self.request.json_body["id"], self.request.json_body["name"]
+            )
+            
+            if result == None:
+                return Response(
+                    status=400,
+                    json_body={"message": "Failed to update item"},
+                )
+
+            return result
+        except grpc.RpcError as e:
+            return Response(
+                status=e.code(),
+                json_body={"message": e.details()},
+            )

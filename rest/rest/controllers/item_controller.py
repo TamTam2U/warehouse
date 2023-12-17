@@ -23,7 +23,6 @@ class ItemController:
                         json_body={"message": "Item not found"},
                     )
                 return item
-
             items = ItemClient().list_item()
             return items
 

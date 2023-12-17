@@ -16,6 +16,10 @@ rest.egg-info/requires.txt
 rest.egg-info/top_level.txt
 rest/controllers/__init__.py
 rest/controllers/item_controller.py
+rest/controllers/itemrack_controller.py
+rest/controllers/kategori_controller.py
+rest/controllers/rack_controller.py
+rest/controllers/role_controller.py
 rest/grpc_client/__init__.py
 rest/static/pyramid-16x16.png
 rest/static/pyramid.png

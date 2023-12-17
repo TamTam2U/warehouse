@@ -1,0 +1,12 @@
+plaster_pastedeploy
+pyramid
+pyramid_jinja2
+pyramid_debugtoolbar
+waitress
+grpcio
+grpcio-tools
+
+[testing]
+WebTest
+pytest
+pytest-cov

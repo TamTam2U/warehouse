@@ -1,0 +1,13 @@
+MANIFEST.in
+development.ini
+production.ini
+pytest.ini
+setup.py
+testing.ini
+rest.egg-info/PKG-INFO
+rest.egg-info/SOURCES.txt
+rest.egg-info/dependency_links.txt
+rest.egg-info/entry_points.txt
+rest.egg-info/not-zip-safe
+rest.egg-info/requires.txt
+rest.egg-info/top_level.txt

@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: rest
+Version: 0.0
+Summary: rest
+Home-page: 
+Author: 
+Author-email: 
+Keywords: web pyramid pylons
+Classifier: Programming Language :: Python
+Classifier: Framework :: Pyramid
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: WSGI :: Application
+Requires-Dist: plaster_pastedeploy
+Requires-Dist: pyramid
+Requires-Dist: pyramid_jinja2
+Requires-Dist: pyramid_debugtoolbar
+Requires-Dist: waitress
+Requires-Dist: grpcio
+Requires-Dist: grpcio-tools
+Provides-Extra: testing
+Requires-Dist: WebTest; extra == "testing"
+Requires-Dist: pytest; extra == "testing"
+Requires-Dist: pytest-cov; extra == "testing"

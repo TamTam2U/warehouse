@@ -5,7 +5,7 @@ package item;
 message Item {
     int32 id = 1;
     string name = 2;
-    string kategoriId = 3;
+    int32 kategoriId = 3;
 }
 
 message ItemListRequest {
@@ -13,7 +13,7 @@ message ItemListRequest {
 }
 
 message ItemListResponse {
-    repeated Item Item = 1;
+    repeated Item item = 1;
 }
 
 message ItemDetailRequest {
@@ -26,7 +26,7 @@ message ItemDetailResponse {
 
 message ItemCreateRequest {
     string name = 1;
-    string kategoriId = 2;
+    int32 kategoriId = 2;
 }
 
 message ItemCreateResponse {

@@ -4,8 +4,8 @@ package itemrack;
 
 message ItemRack {
     int32 id = 1;
-    string itemId = 2;
-    string rackId = 3;
+    int32 itemId = 2;
+    int32 rackId = 3;
 }
 
 message ItemRackListRequest {
@@ -13,7 +13,7 @@ message ItemRackListRequest {
 }
 
 message ItemRackListResponse {
-    repeated ItemRack ItemRack = 1;
+    repeated ItemRack itemRack = 1;
 }
 
 message ItemRackDetailRequest {
@@ -21,26 +21,26 @@ message ItemRackDetailRequest {
 }
 
 message ItemRackDetailResponse {
-    ItemRack ItemRack = 1;
+    ItemRack itemRack = 1;
 }
 
 message ItemRackCreateRequest {
-    string itemId = 1;
-    string rackId = 2;
+    int32 itemId = 1;
+    int32 rackId = 2;
 }
 
 message ItemRackCreateResponse {
-    ItemRack ItemRack = 1;
+    ItemRack itemRack = 1;
 }
 
 message ItemRackUpdateRequest {
     int32 id = 1;
-    string itemId = 2;
-    string rackId = 3;
+    int32 itemId = 2;
+    int32 rackId = 3;
 }
 
 message ItemRackUpdateResponse {
-    ItemRack ItemRack = 1;
+    ItemRack itemRack = 1;
 }
 
 message ItemRackDeleteRequest {

@@ -12,18 +12,18 @@ class Item(_message.Message):
     KATEGORIID_FIELD_NUMBER: _ClassVar[int]
     id: int
     name: str
-    kategoriId: str
-    def __init__(self, id: _Optional[int] = ..., name: _Optional[str] = ..., kategoriId: _Optional[str] = ...) -> None: ...
+    kategoriId: int
+    def __init__(self, id: _Optional[int] = ..., name: _Optional[str] = ..., kategoriId: _Optional[int] = ...) -> None: ...
 
 class ItemListRequest(_message.Message):
     __slots__ = ()
     def __init__(self) -> None: ...
 
 class ItemListResponse(_message.Message):
-    __slots__ = ("Item",)
+    __slots__ = ("item",)
     ITEM_FIELD_NUMBER: _ClassVar[int]
-    Item: _containers.RepeatedCompositeFieldContainer[Item]
-    def __init__(self, Item: _Optional[_Iterable[_Union[Item, _Mapping]]] = ...) -> None: ...
+    item: _containers.RepeatedCompositeFieldContainer[Item]
+    def __init__(self, item: _Optional[_Iterable[_Union[Item, _Mapping]]] = ...) -> None: ...
 
 class ItemDetailRequest(_message.Message):
     __slots__ = ("id",)
@@ -42,8 +42,8 @@ class ItemCreateRequest(_message.Message):
     NAME_FIELD_NUMBER: _ClassVar[int]
     KATEGORIID_FIELD_NUMBER: _ClassVar[int]
     name: str
-    kategoriId: str
-    def __init__(self, name: _Optional[str] = ..., kategoriId: _Optional[str] = ...) -> None: ...
+    kategoriId: int
+    def __init__(self, name: _Optional[str] = ..., kategoriId: _Optional[int] = ...) -> None: ...
 
 class ItemCreateResponse(_message.Message):
     __slots__ = ("item",)

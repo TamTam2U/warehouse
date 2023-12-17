@@ -6,22 +6,22 @@ from typing import ClassVar as _ClassVar, Iterable as _Iterable, Mapping as _Map
 DESCRIPTOR: _descriptor.FileDescriptor
 
 class Kategori(_message.Message):
-    __slots__ = ("id", "name")
+    __slots__ = ("id", "kategori")
     ID_FIELD_NUMBER: _ClassVar[int]
-    NAME_FIELD_NUMBER: _ClassVar[int]
+    KATEGORI_FIELD_NUMBER: _ClassVar[int]
     id: int
-    name: str
-    def __init__(self, id: _Optional[int] = ..., name: _Optional[str] = ...) -> None: ...
+    kategori: str
+    def __init__(self, id: _Optional[int] = ..., kategori: _Optional[str] = ...) -> None: ...
 
 class KategoriListRequest(_message.Message):
     __slots__ = ()
     def __init__(self) -> None: ...
 
 class KategoriListResponse(_message.Message):
-    __slots__ = ("Kategori",)
+    __slots__ = ("kategori",)
     KATEGORI_FIELD_NUMBER: _ClassVar[int]
-    Kategori: _containers.RepeatedCompositeFieldContainer[Kategori]
-    def __init__(self, Kategori: _Optional[_Iterable[_Union[Kategori, _Mapping]]] = ...) -> None: ...
+    kategori: _containers.RepeatedCompositeFieldContainer[Kategori]
+    def __init__(self, kategori: _Optional[_Iterable[_Union[Kategori, _Mapping]]] = ...) -> None: ...
 
 class KategoriDetailRequest(_message.Message):
     __slots__ = ("id",)
@@ -36,10 +36,10 @@ class KategoriDetailResponse(_message.Message):
     def __init__(self, kategori: _Optional[_Union[Kategori, _Mapping]] = ...) -> None: ...
 
 class KategoriCreateRequest(_message.Message):
-    __slots__ = ("name",)
-    NAME_FIELD_NUMBER: _ClassVar[int]
-    name: str
-    def __init__(self, name: _Optional[str] = ...) -> None: ...
+    __slots__ = ("kategori",)
+    KATEGORI_FIELD_NUMBER: _ClassVar[int]
+    kategori: str
+    def __init__(self, kategori: _Optional[str] = ...) -> None: ...
 
 class KategoriCreateResponse(_message.Message):
     __slots__ = ("kategori",)
@@ -48,12 +48,12 @@ class KategoriCreateResponse(_message.Message):
     def __init__(self, kategori: _Optional[_Union[Kategori, _Mapping]] = ...) -> None: ...
 
 class KategoriUpdateRequest(_message.Message):
-    __slots__ = ("id", "name")
+    __slots__ = ("id", "kategori")
     ID_FIELD_NUMBER: _ClassVar[int]
-    NAME_FIELD_NUMBER: _ClassVar[int]
+    KATEGORI_FIELD_NUMBER: _ClassVar[int]
     id: int
-    name: str
-    def __init__(self, id: _Optional[int] = ..., name: _Optional[str] = ...) -> None: ...
+    kategori: str
+    def __init__(self, id: _Optional[int] = ..., kategori: _Optional[str] = ...) -> None: ...
 
 class KategoriUpdateResponse(_message.Message):
     __slots__ = ("kategori", "message")

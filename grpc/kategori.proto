@@ -4,7 +4,7 @@ package kategori;
 
 message Kategori {
     int32 id = 1;
-    string name = 2;
+    string kategori = 2;
 }
 
 message KategoriListRequest {
@@ -12,7 +12,7 @@ message KategoriListRequest {
 }
 
 message KategoriListResponse{
-    repeated Kategori Kategori = 1;
+    repeated Kategori kategori = 1;
 }
 
 message KategoriDetailRequest {
@@ -24,7 +24,7 @@ message KategoriDetailResponse {
 }
 
 message KategoriCreateRequest {
-    string name = 1;
+    string kategori = 1;
 }
 
 message KategoriCreateResponse {
@@ -33,7 +33,7 @@ message KategoriCreateResponse {
 
 message KategoriUpdateRequest {
     int32 id = 1;
-    string name = 2;
+    string kategori = 2;
 }
 
 message KategoriUpdateResponse {

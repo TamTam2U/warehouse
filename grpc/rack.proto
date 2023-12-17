@@ -12,7 +12,7 @@ message RackListRequest {
 }
 
 message RackListResponse {
-    repeated Rack Rack = 1;
+    repeated Rack rack = 1;
 }
 
 message RackDetailRequest {

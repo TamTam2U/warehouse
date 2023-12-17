@@ -11,19 +11,19 @@ class ItemRack(_message.Message):
     ITEMID_FIELD_NUMBER: _ClassVar[int]
     RACKID_FIELD_NUMBER: _ClassVar[int]
     id: int
-    itemId: str
-    rackId: str
-    def __init__(self, id: _Optional[int] = ..., itemId: _Optional[str] = ..., rackId: _Optional[str] = ...) -> None: ...
+    itemId: int
+    rackId: int
+    def __init__(self, id: _Optional[int] = ..., itemId: _Optional[int] = ..., rackId: _Optional[int] = ...) -> None: ...
 
 class ItemRackListRequest(_message.Message):
     __slots__ = ()
     def __init__(self) -> None: ...
 
 class ItemRackListResponse(_message.Message):
-    __slots__ = ("ItemRack",)
+    __slots__ = ("itemRack",)
     ITEMRACK_FIELD_NUMBER: _ClassVar[int]
-    ItemRack: _containers.RepeatedCompositeFieldContainer[ItemRack]
-    def __init__(self, ItemRack: _Optional[_Iterable[_Union[ItemRack, _Mapping]]] = ...) -> None: ...
+    itemRack: _containers.RepeatedCompositeFieldContainer[ItemRack]
+    def __init__(self, itemRack: _Optional[_Iterable[_Union[ItemRack, _Mapping]]] = ...) -> None: ...
 
 class ItemRackDetailRequest(_message.Message):
     __slots__ = ("id",)
@@ -32,24 +32,24 @@ class ItemRackDetailRequest(_message.Message):
     def __init__(self, id: _Optional[int] = ...) -> None: ...
 
 class ItemRackDetailResponse(_message.Message):
-    __slots__ = ("ItemRack",)
+    __slots__ = ("itemRack",)
     ITEMRACK_FIELD_NUMBER: _ClassVar[int]
-    ItemRack: ItemRack
-    def __init__(self, ItemRack: _Optional[_Union[ItemRack, _Mapping]] = ...) -> None: ...
+    itemRack: ItemRack
+    def __init__(self, itemRack: _Optional[_Union[ItemRack, _Mapping]] = ...) -> None: ...
 
 class ItemRackCreateRequest(_message.Message):
     __slots__ = ("itemId", "rackId")
     ITEMID_FIELD_NUMBER: _ClassVar[int]
     RACKID_FIELD_NUMBER: _ClassVar[int]
-    itemId: str
-    rackId: str
-    def __init__(self, itemId: _Optional[str] = ..., rackId: _Optional[str] = ...) -> None: ...
+    itemId: int
+    rackId: int
+    def __init__(self, itemId: _Optional[int] = ..., rackId: _Optional[int] = ...) -> None: ...
 
 class ItemRackCreateResponse(_message.Message):
-    __slots__ = ("ItemRack",)
+    __slots__ = ("itemRack",)
     ITEMRACK_FIELD_NUMBER: _ClassVar[int]
-    ItemRack: ItemRack
-    def __init__(self, ItemRack: _Optional[_Union[ItemRack, _Mapping]] = ...) -> None: ...
+    itemRack: ItemRack
+    def __init__(self, itemRack: _Optional[_Union[ItemRack, _Mapping]] = ...) -> None: ...
 
 class ItemRackUpdateRequest(_message.Message):
     __slots__ = ("id", "itemId", "rackId")
@@ -57,15 +57,15 @@ class ItemRackUpdateRequest(_message.Message):
     ITEMID_FIELD_NUMBER: _ClassVar[int]
     RACKID_FIELD_NUMBER: _ClassVar[int]
     id: int
-    itemId: str
-    rackId: str
-    def __init__(self, id: _Optional[int] = ..., itemId: _Optional[str] = ..., rackId: _Optional[str] = ...) -> None: ...
+    itemId: int
+    rackId: int
+    def __init__(self, id: _Optional[int] = ..., itemId: _Optional[int] = ..., rackId: _Optional[int] = ...) -> None: ...
 
 class ItemRackUpdateResponse(_message.Message):
-    __slots__ = ("ItemRack",)
+    __slots__ = ("itemRack",)
     ITEMRACK_FIELD_NUMBER: _ClassVar[int]
-    ItemRack: ItemRack
-    def __init__(self, ItemRack: _Optional[_Union[ItemRack, _Mapping]] = ...) -> None: ...
+    itemRack: ItemRack
+    def __init__(self, itemRack: _Optional[_Union[ItemRack, _Mapping]] = ...) -> None: ...
 
 class ItemRackDeleteRequest(_message.Message):
     __slots__ = ("id",)

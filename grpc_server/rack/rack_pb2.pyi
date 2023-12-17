@@ -18,10 +18,10 @@ class RackListRequest(_message.Message):
     def __init__(self) -> None: ...
 
 class RackListResponse(_message.Message):
-    __slots__ = ("Rack",)
+    __slots__ = ("rack",)
     RACK_FIELD_NUMBER: _ClassVar[int]
-    Rack: _containers.RepeatedCompositeFieldContainer[Rack]
-    def __init__(self, Rack: _Optional[_Iterable[_Union[Rack, _Mapping]]] = ...) -> None: ...
+    rack: _containers.RepeatedCompositeFieldContainer[Rack]
+    def __init__(self, rack: _Optional[_Iterable[_Union[Rack, _Mapping]]] = ...) -> None: ...
 
 class RackDetailRequest(_message.Message):
     __slots__ = ("id",)

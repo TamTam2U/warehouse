@@ -4,9 +4,9 @@ package barangmasuk;
 
 message BarangMasuk{
     int32 id = 1;
-    string name = 2;
+    string item = 2;
     string tanggalMasuk = 3;
-    string supplierId = 4;
+    string supplierID = 4;
     int32 qty = 5;
 }
 
@@ -27,9 +27,9 @@ message BarangMasukDetailResponse {
 }
 
 message BarangMasukCreateRequest {
-    string name = 1;
+    string item = 1;
     string tanggalMasuk = 2;
-    string supplierId = 3;
+    string supplierID = 3;
     int32 qty = 4;
 }
 
@@ -39,9 +39,9 @@ message BarangMasukCreateResponse {
 
 message BarangMasukUpdateRequest {
     int32 id = 1;
-    string name = 2;
+    string item = 2;
     string tanggalMasuk = 3;
-    string supplierId = 4;
+    string supplierID = 4;
     int32 qty = 5;
 }
 

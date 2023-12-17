@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import kategori_pb2 as kategori__pb2
+import rest.grpc_client.kategori.kategori_pb2 as kategori__pb2
 
 
 class KategoriServiceStub(object):

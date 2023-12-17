@@ -16,6 +16,8 @@ class ItemClient:
         request = item_pb2.ItemListRequest()
         response = self.stub.list(request)
         
+        
+        
         if len(response.item) == 0:
             return None
         
@@ -25,7 +27,8 @@ class ItemClient:
             dict(
                 id = item.id,
                 name = item.name,
-                kategoriId = kategoriClient.get_kategori(item.kategoriId)
+                kategoriId = item.kategoriId,
+                kategori = kategoriClient.get_kategori(item.kategoriId)
             )
             for item in response.item
         ]
@@ -37,10 +40,13 @@ class ItemClient:
         if response.item is None:
             return None
         
+        kategoriClient = KategoriClient()
+        
         return dict(
             id = response.item.id,
             name = response.item.name,
-            kategoriId = response.item.kategoriId
+            kategoriId = response.item.kategoriId,
+            kategori = kategoriClient.get_kategori(response.item.kategoriId)
         )
     
     def create_item(self, name, kategoriId):

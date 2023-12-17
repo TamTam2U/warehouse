@@ -4,6 +4,9 @@ production.ini
 pytest.ini
 setup.py
 testing.ini
+rest/__init__.py
+rest/cors.py
+rest/routes.py
 rest.egg-info/PKG-INFO
 rest.egg-info/SOURCES.txt
 rest.egg-info/dependency_links.txt
@@ -11,3 +14,15 @@ rest.egg-info/entry_points.txt
 rest.egg-info/not-zip-safe
 rest.egg-info/requires.txt
 rest.egg-info/top_level.txt
+rest/controllers/__init__.py
+rest/controllers/item_controller.py
+rest/grpc_client/__init__.py
+rest/static/pyramid-16x16.png
+rest/static/pyramid.png
+rest/static/theme.css
+rest/templates/404.jinja2
+rest/templates/layout.jinja2
+rest/templates/mytemplate.jinja2
+rest/views/__init__.py
+rest/views/default.py
+rest/views/notfound.py

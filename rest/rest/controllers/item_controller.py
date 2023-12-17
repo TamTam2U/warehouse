@@ -16,16 +16,16 @@ class ItemController:
             if self.request.params.get("id") is not None:
                 id = self.request.params.get("id")
                 item = ItemClient().get_item(int(id))
-                
+
                 if item == None:
                     return Response(
                         status=404,
                         json_body={"message": "Item not found"},
                     )
                 return item
-            else:
-                items = ItemClient().list_item()
-                return items
+
+            items = ItemClient().list_item()
+            return items
 
         except grpc.RpcError as e:
             return Response(

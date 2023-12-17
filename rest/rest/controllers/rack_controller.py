@@ -1,12 +1,12 @@
 from pyramid.view import view_config, view_defaults
 from pyramid.response import Response
-
-from rest.grpc_client.item.item_client import ItemClient
 import grpc
 
+from rest.grpc_client.rack.rack_client import RackClient
 
-@view_defaults(route_name="item", renderer="json")
-class ItemController:
+
+@view_defaults(route_name="rack", renderer="json")
+class RackController:
     def __init__(self, request):
         self.request = request
 
@@ -15,18 +15,22 @@ class ItemController:
         try:
             if self.request.params.get("id") is not None:
                 id = self.request.params.get("id")
-                item = ItemClient().get_item(int(id))
-
-                if item == None:
+                client = RackClient()
+                result = client.get_rack(int(id))
+                if result == None:
                     return Response(
                         status=404,
-                        json_body={"message": "Item not found"},
+                        json_body={"message": "Rack not found"},
                     )
-                return item
-
-            items = ItemClient().list_item()
-            return items
-
+                return result
+            client = RackClient()
+            results = client.list_rack()
+            if results == None:
+                return Response(
+                    status=400,
+                    json_body={"message": "Failed to get rack"},
+                )
+            return results
         except grpc.RpcError as e:
             return Response(
                 status=e.code(),
@@ -36,33 +40,25 @@ class ItemController:
     @view_config(request_method="POST")
     def create(self):
         try:
-            if (
-                "name" not in self.request.json_body
-                or "kategoriId" not in self.request.json_body
-            ):
+            if "name" not in self.request.json_body:
                 return Response(
                     status=400,
-                    json_body={"message": "Missing name or kategori"},
+                    json_body={"message": "Missing name"},
                 )
-                
-            client = ItemClient()
-            result = client.create_item(
-                self.request.json_body["name"], self.request.json_body["kategoriId"]
-            )
-            
+            client = RackClient()
+            result = client.create_rack(self.request.json_body["name"])
             if result == None:
                 return Response(
                     status=400,
-                    json_body={"message": "Failed to create item"},
+                    json_body={"message": "Failed to create rack"},
                 )
-
             return result
         except grpc.RpcError as e:
             return Response(
                 status=e.code(),
                 json_body={"message": e.details()},
             )
-    
+
     @view_config(request_method="PUT")
     def update(self):
         try:
@@ -74,25 +70,22 @@ class ItemController:
                     status=400,
                     json_body={"message": "Missing id or name"},
                 )
-                
-            client = ItemClient()
-            result = client.update_item(
-                self.request.json_body["id"], self.request.json_body["name"]
-            )
-            
+            id = self.request.json_body["id"]
+            name = self.request.json_body["name"]
+            client = RackClient()
+            result = client.update_rack(int(id), name)
             if result == None:
                 return Response(
                     status=400,
-                    json_body={"message": "Failed to update item"},
+                    json_body={"message": "Failed to update rack"},
                 )
-
             return result
         except grpc.RpcError as e:
             return Response(
                 status=e.code(),
                 json_body={"message": e.details()},
             )
-    
+
     @view_config(request_method="DELETE")
     def delete(self):
         try:
@@ -101,16 +94,14 @@ class ItemController:
                     status=400,
                     json_body={"message": "Missing id"},
                 )
-                
-            client = ItemClient()
-            result = client.delete_item(int(self.request.params.get("id")))
-            
+            id = self.request.params.get("id")
+            client = RackClient()
+            result = client.delete_rack(int(id))
             if result == None:
                 return Response(
                     status=400,
-                    json_body={"message": "Failed to delete item"},
+                    json_body={"message": "Failed to delete rack"},
                 )
-
             return result
         except grpc.RpcError as e:
             return Response(

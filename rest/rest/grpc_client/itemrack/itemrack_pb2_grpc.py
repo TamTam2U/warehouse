@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import itemrack_pb2 as itemrack__pb2
+import rest.grpc_client.itemrack.itemrack_pb2 as itemrack__pb2
 
 
 class ItemRackServiceStub(object):

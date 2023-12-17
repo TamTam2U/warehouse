@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import role_pb2 as role__pb2
+import rest.grpc_client.role.role_pb2 as role__pb2
 
 
 class RoleServiceStub(object):

@@ -13,17 +13,17 @@ python3 -m venv env
 # deactivate env
 deactivate
 
-# # setup rest server
-# python3 -m venv ./rest/env
+# setup rest server
+python3 -m venv ./rest/env
 
-# # activate env in windows
-# ./rest/env/Scripts/activate.bat
+# activate env in windows
+./rest/env/Scripts/activate.bat
 
-# # install requirements
-# ./rest/env/Scripts/pip install -e ./rest
+# install requirements
+./rest/env/Scripts/pip install -e ./rest
 
-# # deactivate env
-# deactivate
+# deactivate env
+deactivate
 
 # setup grpc server
 cd grpc_server

@@ -1,7 +1,7 @@
 def includeme(config):
     config.add_route("home", "/")
     config.add_route("item", "/api/v1/item{action:.*}")
-    # config.add_route("anggota", "/api/v1/anggota{action:.*}")
+    config.add_route("kategori", "/api/v1/kategori{action:.*}")
     # config.add_route("login-anggota", "/api/v1/login-anggota")
     # config.add_route("logout-anggota", "/api/v1/logout-anggota")
     # config.add_route("buku", "/api/v1/buku{action:.*}")

@@ -92,3 +92,30 @@ class ItemController:
                 status=e.code(),
                 json_body={"message": e.details()},
             )
+    
+    @view_config(request_method="DELETE")
+    def delete(self):
+        try:
+            if "id" not in self.request.json_body:
+                return Response(
+                    status=400,
+                    json_body={"message": "Missing id"},
+                )
+                
+            client = ItemClient()
+            result = client.delete_item(
+                self.request.json_body["id"]
+            )
+            
+            if result == None:
+                return Response(
+                    status=400,
+                    json_body={"message": "Failed to delete item"},
+                )
+
+            return result
+        except grpc.RpcError as e:
+            return Response(
+                status=e.code(),
+                json_body={"message": e.details()},
+            )

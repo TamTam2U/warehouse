@@ -6,18 +6,20 @@ from typing import ClassVar as _ClassVar, Iterable as _Iterable, Mapping as _Map
 DESCRIPTOR: _descriptor.FileDescriptor
 
 class User(_message.Message):
-    __slots__ = ("id", "name", "email", "password", "role_id")
+    __slots__ = ("id", "name", "email", "password", "role_id", "token")
     ID_FIELD_NUMBER: _ClassVar[int]
     NAME_FIELD_NUMBER: _ClassVar[int]
     EMAIL_FIELD_NUMBER: _ClassVar[int]
     PASSWORD_FIELD_NUMBER: _ClassVar[int]
     ROLE_ID_FIELD_NUMBER: _ClassVar[int]
+    TOKEN_FIELD_NUMBER: _ClassVar[int]
     id: int
     name: str
     email: str
     password: str
     role_id: int
-    def __init__(self, id: _Optional[int] = ..., name: _Optional[str] = ..., email: _Optional[str] = ..., password: _Optional[str] = ..., role_id: _Optional[int] = ...) -> None: ...
+    token: str
+    def __init__(self, id: _Optional[int] = ..., name: _Optional[str] = ..., email: _Optional[str] = ..., password: _Optional[str] = ..., role_id: _Optional[int] = ..., token: _Optional[str] = ...) -> None: ...
 
 class UserListRequest(_message.Message):
     __slots__ = ()

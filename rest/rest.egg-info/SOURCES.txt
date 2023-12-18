@@ -15,6 +15,9 @@ rest.egg-info/not-zip-safe
 rest.egg-info/requires.txt
 rest.egg-info/top_level.txt
 rest/controllers/__init__.py
+rest/controllers/admin_controller.py
+rest/controllers/barangkeluar_controller.py
+rest/controllers/barangmasuk_controller.py
 rest/controllers/item_controller.py
 rest/controllers/itemrack_controller.py
 rest/controllers/kategori_controller.py

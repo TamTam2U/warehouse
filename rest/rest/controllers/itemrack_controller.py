@@ -60,3 +60,59 @@ class ItemRackController:
                 status=e.code(),
                 json_body={"message": e.details()},
             )
+
+    @view_config(request_method="DELETE")
+    def delete(self):
+        try:
+            if self.request.params.get("id") is None:
+                return Response(
+                    status=400,
+                    json_body={"message": "Missing id"},
+                )
+            id = self.request.params.get("id")
+            itemrack = ItemRackClient().delete_itemrack(int(id))
+
+            if itemrack == None:
+                return Response(
+                    status=400,
+                    json_body={"message": "Failed to delete itemrack"},
+                )
+
+            return itemrack
+        except grpc.RpcError as e:
+            return Response(
+                status=e.code(),
+                json_body={"message": e.details()},
+            )
+
+    @view_config(request_method="PUT")
+    def update(self):
+        try:
+            if (
+                "id" not in self.request.json_body
+                or "itemId" not in self.request.json_body
+                or "rackId" not in self.request.json_body
+            ):
+                return Response(
+                    status=400,
+                    json_body={"message": "Missing id or itemId or rackId"},
+                )
+            id = self.request.json_body["id"]
+            itemId = self.request.json_body["itemId"]
+            rackId = self.request.json_body["rackId"]
+            itemrack = ItemRackClient().update_itemrack(
+                int(id), int(itemId), int(rackId)
+            )
+
+            if itemrack == None:
+                return Response(
+                    status=400,
+                    json_body={"message": "Failed to update itemrack"},
+                )
+
+            return itemrack
+        except grpc.RpcError as e:
+            return Response(
+                status=e.code(),
+                json_body={"message": e.details()},
+            )

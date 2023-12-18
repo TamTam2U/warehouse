@@ -14,7 +14,7 @@ _sym_db = _symbol_database.Default()
 
 
 
-DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\nuser.proto\x12\x04user\"R\n\x04User\x12\n\n\x02id\x18\x01 \x01(\x05\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\r\n\x05\x65mail\x18\x03 \x01(\t\x12\x10\n\x08password\x18\x04 \x01(\t\x12\x0f\n\x07role_id\x18\x05 \x01(\x05\"\x11\n\x0fUserListRequest\",\n\x10UserListResponse\x12\x18\n\x04user\x18\x01 \x03(\x0b\x32\n.user.User\"\x1f\n\x11UserDetailRequest\x12\n\n\x02id\x18\x01 \x01(\x05\".\n\x12UserDetailResponse\x12\x18\n\x04user\x18\x01 \x01(\x0b\x32\n.user.User\"S\n\x11UserCreateRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\r\n\x05\x65mail\x18\x02 \x01(\t\x12\x10\n\x08password\x18\x03 \x01(\t\x12\x0f\n\x07role_id\x18\x04 \x01(\x05\".\n\x12UserCreateResponse\x12\x18\n\x04user\x18\x01 \x01(\x0b\x32\n.user.User\"_\n\x11UserUpdateRequest\x12\n\n\x02id\x18\x01 \x01(\x05\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\r\n\x05\x65mail\x18\x03 \x01(\t\x12\x10\n\x08password\x18\x04 \x01(\t\x12\x0f\n\x07role_id\x18\x05 \x01(\x05\".\n\x12UserUpdateResponse\x12\x18\n\x04user\x18\x01 \x01(\x0b\x32\n.user.User\"\x1f\n\x11UserDeleteRequest\x12\n\n\x02id\x18\x01 \x01(\x05\"%\n\x12UserDeleteResponse\x12\x0f\n\x07message\x18\x01 \x01(\t\"3\n\x10UserLoginRequest\x12\r\n\x05\x65mail\x18\x01 \x01(\t\x12\x10\n\x08password\x18\x02 \x01(\t\"\"\n\x11UserLoginResponse\x12\r\n\x05token\x18\x01 \x01(\t\"\"\n\x11UserLogoutRequest\x12\r\n\x05token\x18\x01 \x01(\t\"%\n\x12UserLogoutResponse\x12\x0f\n\x07message\x18\x01 \x01(\t2\xac\x03\n\x0bUserService\x12\x35\n\x04list\x12\x15.user.UserListRequest\x1a\x16.user.UserListResponse\x12\x38\n\x03get\x12\x17.user.UserDetailRequest\x1a\x18.user.UserDetailResponse\x12;\n\x06\x63reate\x12\x17.user.UserCreateRequest\x1a\x18.user.UserCreateResponse\x12;\n\x06update\x12\x17.user.UserUpdateRequest\x1a\x18.user.UserUpdateResponse\x12;\n\x06\x64\x65lete\x12\x17.user.UserDeleteRequest\x1a\x18.user.UserDeleteResponse\x12\x38\n\x05login\x12\x16.user.UserLoginRequest\x1a\x17.user.UserLoginResponse\x12;\n\x06logout\x12\x17.user.UserLogoutRequest\x1a\x18.user.UserLogoutResponseb\x06proto3')
+DESCRIPTOR = _descriptor_pool.Default().AddSerializedFile(b'\n\nuser.proto\x12\x04user\"a\n\x04User\x12\n\n\x02id\x18\x01 \x01(\x05\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\r\n\x05\x65mail\x18\x03 \x01(\t\x12\x10\n\x08password\x18\x04 \x01(\t\x12\x0f\n\x07role_id\x18\x05 \x01(\x05\x12\r\n\x05token\x18\x06 \x01(\t\"\x11\n\x0fUserListRequest\",\n\x10UserListResponse\x12\x18\n\x04user\x18\x01 \x03(\x0b\x32\n.user.User\"\x1f\n\x11UserDetailRequest\x12\n\n\x02id\x18\x01 \x01(\x05\".\n\x12UserDetailResponse\x12\x18\n\x04user\x18\x01 \x01(\x0b\x32\n.user.User\"S\n\x11UserCreateRequest\x12\x0c\n\x04name\x18\x01 \x01(\t\x12\r\n\x05\x65mail\x18\x02 \x01(\t\x12\x10\n\x08password\x18\x03 \x01(\t\x12\x0f\n\x07role_id\x18\x04 \x01(\x05\".\n\x12UserCreateResponse\x12\x18\n\x04user\x18\x01 \x01(\x0b\x32\n.user.User\"_\n\x11UserUpdateRequest\x12\n\n\x02id\x18\x01 \x01(\x05\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\r\n\x05\x65mail\x18\x03 \x01(\t\x12\x10\n\x08password\x18\x04 \x01(\t\x12\x0f\n\x07role_id\x18\x05 \x01(\x05\".\n\x12UserUpdateResponse\x12\x18\n\x04user\x18\x01 \x01(\x0b\x32\n.user.User\"\x1f\n\x11UserDeleteRequest\x12\n\n\x02id\x18\x01 \x01(\x05\"%\n\x12UserDeleteResponse\x12\x0f\n\x07message\x18\x01 \x01(\t\"3\n\x10UserLoginRequest\x12\r\n\x05\x65mail\x18\x01 \x01(\t\x12\x10\n\x08password\x18\x02 \x01(\t\"\"\n\x11UserLoginResponse\x12\r\n\x05token\x18\x01 \x01(\t\"\"\n\x11UserLogoutRequest\x12\r\n\x05token\x18\x01 \x01(\t\"%\n\x12UserLogoutResponse\x12\x0f\n\x07message\x18\x01 \x01(\t2\xac\x03\n\x0bUserService\x12\x35\n\x04list\x12\x15.user.UserListRequest\x1a\x16.user.UserListResponse\x12\x38\n\x03get\x12\x17.user.UserDetailRequest\x1a\x18.user.UserDetailResponse\x12;\n\x06\x63reate\x12\x17.user.UserCreateRequest\x1a\x18.user.UserCreateResponse\x12;\n\x06update\x12\x17.user.UserUpdateRequest\x1a\x18.user.UserUpdateResponse\x12;\n\x06\x64\x65lete\x12\x17.user.UserDeleteRequest\x1a\x18.user.UserDeleteResponse\x12\x38\n\x05login\x12\x16.user.UserLoginRequest\x1a\x17.user.UserLoginResponse\x12;\n\x06logout\x12\x17.user.UserLogoutRequest\x1a\x18.user.UserLogoutResponseb\x06proto3')
 
 _globals = globals()
 _builder.BuildMessageAndEnumDescriptors(DESCRIPTOR, _globals)
@@ -22,35 +22,35 @@ _builder.BuildTopDescriptorsAndMessages(DESCRIPTOR, 'user_pb2', _globals)
 if _descriptor._USE_C_DESCRIPTORS == False:
   DESCRIPTOR._options = None
   _globals['_USER']._serialized_start=20
-  _globals['_USER']._serialized_end=102
-  _globals['_USERLISTREQUEST']._serialized_start=104
-  _globals['_USERLISTREQUEST']._serialized_end=121
-  _globals['_USERLISTRESPONSE']._serialized_start=123
-  _globals['_USERLISTRESPONSE']._serialized_end=167
-  _globals['_USERDETAILREQUEST']._serialized_start=169
-  _globals['_USERDETAILREQUEST']._serialized_end=200
-  _globals['_USERDETAILRESPONSE']._serialized_start=202
-  _globals['_USERDETAILRESPONSE']._serialized_end=248
-  _globals['_USERCREATEREQUEST']._serialized_start=250
-  _globals['_USERCREATEREQUEST']._serialized_end=333
-  _globals['_USERCREATERESPONSE']._serialized_start=335
-  _globals['_USERCREATERESPONSE']._serialized_end=381
-  _globals['_USERUPDATEREQUEST']._serialized_start=383
-  _globals['_USERUPDATEREQUEST']._serialized_end=478
-  _globals['_USERUPDATERESPONSE']._serialized_start=480
-  _globals['_USERUPDATERESPONSE']._serialized_end=526
-  _globals['_USERDELETEREQUEST']._serialized_start=528
-  _globals['_USERDELETEREQUEST']._serialized_end=559
-  _globals['_USERDELETERESPONSE']._serialized_start=561
-  _globals['_USERDELETERESPONSE']._serialized_end=598
-  _globals['_USERLOGINREQUEST']._serialized_start=600
-  _globals['_USERLOGINREQUEST']._serialized_end=651
-  _globals['_USERLOGINRESPONSE']._serialized_start=653
-  _globals['_USERLOGINRESPONSE']._serialized_end=687
-  _globals['_USERLOGOUTREQUEST']._serialized_start=689
-  _globals['_USERLOGOUTREQUEST']._serialized_end=723
-  _globals['_USERLOGOUTRESPONSE']._serialized_start=725
-  _globals['_USERLOGOUTRESPONSE']._serialized_end=762
-  _globals['_USERSERVICE']._serialized_start=765
-  _globals['_USERSERVICE']._serialized_end=1193
+  _globals['_USER']._serialized_end=117
+  _globals['_USERLISTREQUEST']._serialized_start=119
+  _globals['_USERLISTREQUEST']._serialized_end=136
+  _globals['_USERLISTRESPONSE']._serialized_start=138
+  _globals['_USERLISTRESPONSE']._serialized_end=182
+  _globals['_USERDETAILREQUEST']._serialized_start=184
+  _globals['_USERDETAILREQUEST']._serialized_end=215
+  _globals['_USERDETAILRESPONSE']._serialized_start=217
+  _globals['_USERDETAILRESPONSE']._serialized_end=263
+  _globals['_USERCREATEREQUEST']._serialized_start=265
+  _globals['_USERCREATEREQUEST']._serialized_end=348
+  _globals['_USERCREATERESPONSE']._serialized_start=350
+  _globals['_USERCREATERESPONSE']._serialized_end=396
+  _globals['_USERUPDATEREQUEST']._serialized_start=398
+  _globals['_USERUPDATEREQUEST']._serialized_end=493
+  _globals['_USERUPDATERESPONSE']._serialized_start=495
+  _globals['_USERUPDATERESPONSE']._serialized_end=541
+  _globals['_USERDELETEREQUEST']._serialized_start=543
+  _globals['_USERDELETEREQUEST']._serialized_end=574
+  _globals['_USERDELETERESPONSE']._serialized_start=576
+  _globals['_USERDELETERESPONSE']._serialized_end=613
+  _globals['_USERLOGINREQUEST']._serialized_start=615
+  _globals['_USERLOGINREQUEST']._serialized_end=666
+  _globals['_USERLOGINRESPONSE']._serialized_start=668
+  _globals['_USERLOGINRESPONSE']._serialized_end=702
+  _globals['_USERLOGOUTREQUEST']._serialized_start=704
+  _globals['_USERLOGOUTREQUEST']._serialized_end=738
+  _globals['_USERLOGOUTRESPONSE']._serialized_start=740
+  _globals['_USERLOGOUTRESPONSE']._serialized_end=777
+  _globals['_USERSERVICE']._serialized_start=780
+  _globals['_USERSERVICE']._serialized_end=1208
 # @@protoc_insertion_point(module_scope)

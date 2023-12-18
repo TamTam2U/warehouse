@@ -2,7 +2,7 @@
 """Client and server classes corresponding to protobuf-defined services."""
 import grpc
 
-import barangmasuk_pb2 as barangmasuk__pb2
+import rest.grpc_client.barangmasuk.barangmasuk_pb2 as barangmasuk__pb2
 
 
 class BarangMasukServiceStub(object):

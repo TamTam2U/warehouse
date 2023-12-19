@@ -116,3 +116,27 @@ class ItemRackController:
                 status=e.code(),
                 json_body={"message": e.details()},
             )
+    
+    @view_config(route_name="getItemByRackId", request_method="GET")
+    def getItemByRackId(self):
+        try:
+            if self.request.params.get("rackId") is None:
+                return Response(
+                    status=400,
+                    json_body={"message": "Missing id"},
+                )
+            id = self.request.params.get("rackId")
+            itemrack = ItemRackClient().getItemByRackId(int(id))
+
+            if itemrack == None:
+                return Response(
+                    status=404,
+                    json_body={"message": "Itemrack not found"},
+                )
+            return itemrack
+        except grpc.RpcError as e:
+            return Response(
+                status=e.code(),
+                json_body={"message": e.details()},
+            )
+        

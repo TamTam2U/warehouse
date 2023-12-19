@@ -98,3 +98,18 @@ class ItemRackClient:
             return None
 
         return dict(message="success deleted")
+    
+    def getItemByRackId(self,rackId):
+        res = self.stub.itemByRackId(itemrack_pb2.ItemByRackIdRequest(rackId=int(rackId)))
+        if len(res.itemRack) == 0:
+            return None
+        itemClient = ItemClient()
+        return [
+            dict(
+                id=itemrack.id,
+                itemId=itemrack.itemId,
+                rackId=itemrack.rackId,
+                item=itemClient.get_item(itemrack.itemId),
+            )
+            for itemrack in res.itemRack
+        ]

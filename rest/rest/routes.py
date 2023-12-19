@@ -9,6 +9,7 @@ def includeme(config):
     config.add_route("keluar", "/api/v1/keluar{action:.*}")
     config.add_route("admin", "/api/v1/admin{action:.*}")
     config.add_route("user", "/api/v1/user{action:.*}")
+    config.add_route("getItemByRackId", "/api/v1/getItemByRackId{action:.*}")
     config.add_route("login", "/api/v1/login")
     config.add_route("Ulogin", "/api/v1/Ulogin")
     config.add_route("logout", "/api/v1/logout")

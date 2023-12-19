@@ -51,10 +51,19 @@ message ItemRackDeleteResponse {
     string message = 1;
 }
 
+message ItemByRackIdRequest{
+    int32 rackId = 1;
+}
+
+message ItemByRackIdResponse{
+    repeated ItemRack itemRack = 1;
+}
+
 service ItemRackService {
     rpc list(ItemRackListRequest) returns (ItemRackListResponse);
     rpc get(ItemRackDetailRequest) returns (ItemRackDetailResponse);
     rpc create(ItemRackCreateRequest) returns (ItemRackCreateResponse);
     rpc update(ItemRackUpdateRequest) returns (ItemRackUpdateResponse);
     rpc delete(ItemRackDeleteRequest) returns (ItemRackDeleteResponse);
+    rpc itemByRackId(ItemByRackIdRequest) returns (ItemByRackIdResponse);
 }

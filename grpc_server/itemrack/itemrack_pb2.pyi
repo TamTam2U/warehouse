@@ -78,3 +78,15 @@ class ItemRackDeleteResponse(_message.Message):
     MESSAGE_FIELD_NUMBER: _ClassVar[int]
     message: str
     def __init__(self, message: _Optional[str] = ...) -> None: ...
+
+class ItemByRackIdRequest(_message.Message):
+    __slots__ = ("rackId",)
+    RACKID_FIELD_NUMBER: _ClassVar[int]
+    rackId: int
+    def __init__(self, rackId: _Optional[int] = ...) -> None: ...
+
+class ItemByRackIdResponse(_message.Message):
+    __slots__ = ("itemRack",)
+    ITEMRACK_FIELD_NUMBER: _ClassVar[int]
+    itemRack: _containers.RepeatedCompositeFieldContainer[ItemRack]
+    def __init__(self, itemRack: _Optional[_Iterable[_Union[ItemRack, _Mapping]]] = ...) -> None: ...

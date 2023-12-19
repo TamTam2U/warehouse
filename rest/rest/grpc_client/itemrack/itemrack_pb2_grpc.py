@@ -39,6 +39,11 @@ class ItemRackServiceStub(object):
                 request_serializer=itemrack__pb2.ItemRackDeleteRequest.SerializeToString,
                 response_deserializer=itemrack__pb2.ItemRackDeleteResponse.FromString,
                 )
+        self.itemByRackId = channel.unary_unary(
+                '/itemrack.ItemRackService/itemByRackId',
+                request_serializer=itemrack__pb2.ItemByRackIdRequest.SerializeToString,
+                response_deserializer=itemrack__pb2.ItemByRackIdResponse.FromString,
+                )
 
 
 class ItemRackServiceServicer(object):
@@ -74,6 +79,12 @@ class ItemRackServiceServicer(object):
         context.set_details('Method not implemented!')
         raise NotImplementedError('Method not implemented!')
 
+    def itemByRackId(self, request, context):
+        """Missing associated documentation comment in .proto file."""
+        context.set_code(grpc.StatusCode.UNIMPLEMENTED)
+        context.set_details('Method not implemented!')
+        raise NotImplementedError('Method not implemented!')
+
 
 def add_ItemRackServiceServicer_to_server(servicer, server):
     rpc_method_handlers = {
@@ -101,6 +112,11 @@ def add_ItemRackServiceServicer_to_server(servicer, server):
                     servicer.delete,
                     request_deserializer=itemrack__pb2.ItemRackDeleteRequest.FromString,
                     response_serializer=itemrack__pb2.ItemRackDeleteResponse.SerializeToString,
+            ),
+            'itemByRackId': grpc.unary_unary_rpc_method_handler(
+                    servicer.itemByRackId,
+                    request_deserializer=itemrack__pb2.ItemByRackIdRequest.FromString,
+                    response_serializer=itemrack__pb2.ItemByRackIdResponse.SerializeToString,
             ),
     }
     generic_handler = grpc.method_handlers_generic_handler(
@@ -194,5 +210,22 @@ class ItemRackService(object):
         return grpc.experimental.unary_unary(request, target, '/itemrack.ItemRackService/delete',
             itemrack__pb2.ItemRackDeleteRequest.SerializeToString,
             itemrack__pb2.ItemRackDeleteResponse.FromString,
+            options, channel_credentials,
+            insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
+
+    @staticmethod
+    def itemByRackId(request,
+            target,
+            options=(),
+            channel_credentials=None,
+            call_credentials=None,
+            insecure=False,
+            compression=None,
+            wait_for_ready=None,
+            timeout=None,
+            metadata=None):
+        return grpc.experimental.unary_unary(request, target, '/itemrack.ItemRackService/itemByRackId',
+            itemrack__pb2.ItemByRackIdRequest.SerializeToString,
+            itemrack__pb2.ItemByRackIdResponse.FromString,
             options, channel_credentials,
             insecure, call_credentials, compression, wait_for_ready, timeout, metadata)
